@@ -5859,17 +5859,38 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
     margin-top: -10px;
   }  
 }
-@media screen and (min-width:331px) and (max-width: 380px) {
+@media screen and (min-width:331px) and (max-width: 370px) {
   .topnav .logo {
-    width: 194px;
+    width: 199px;
     margin-top: -10px;
-  }  
+    margin-left: 7px;
+  } 
+  .topnav .menu-icon {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    top: 21px;
+} 
 }
-@media screen and (min-width:381px) and (max-width: 767px) {
+@media screen and (min-width:371px) and (max-width: 414px) {
   .topnav .logo {
-    width: 194px;
-    margin-top: -10px;
-  }  
+    width: 232px;
+    margin-top: -11px;
+    margin-left: 6px;
+}
+  .topnav .menu-icon {
+    display: flex;
+    position: absolute;
+    right: 18px;
+    top: 21px;
+} 
+}
+@media screen and (min-width:415px) and (max-width: 767px) {
+  .topnav .logo {
+    width: 252px;
+    margin-top: -6px;
+    margin-left: -1px;
+  }
 } 
 @media screen and (max-width: 767px) {
   .sm-mb10 {
