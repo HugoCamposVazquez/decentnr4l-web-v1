@@ -44,11 +44,11 @@ const INICIO = () => {
       <VideoWithTestimonials />
       <SkillsCircle subBG theme="dark" />
       {/* <Maarquee/> */}
-   {/*    <ShowcasesOneCenter />
+      <ShowcasesOneCenter />
       <Team1 />
       <MinimalArea />
       <Clients1 theme="dark" />
-      <Contacto/> */}
+      {/* <Contacto/> */}
     </DarkTheme>
   );
 };
