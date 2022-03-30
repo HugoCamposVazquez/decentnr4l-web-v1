@@ -6111,8 +6111,9 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
     display: none;
   }
   .hamenu .menu-links .main-menu > li {
-    font-size: 20px;
+    font-size: 29px;
     padding: 7px;
+    line-height: 1.9rem;
   }
   .hamenu .menu-links .main-menu .sub-menu li {
     font-size: 16px;
