@@ -221,6 +221,7 @@ ul.social-list a.glyphicon svg:hover {
 }
 @media (max-width:767px){
 
+  .mouse-cursor{display: none;}
   img.isologofloat {
     max-width: 194px;
     float: right;
