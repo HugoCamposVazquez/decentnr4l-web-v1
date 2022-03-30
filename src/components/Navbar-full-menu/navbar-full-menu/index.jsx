@@ -52,67 +52,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <ul className="main-menu">
                   <li>
                   <div className="o-hidden">
-                      <Link href="/about/about-dark">
+                      <Link href="/">
                         <a className="link">
                          HOME
                         </a>
                       </Link>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home1-dark">
-                              <a className="sub-link">
-                                Main Home
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home2-dark">
-                              <a className="sub-link">
-                                Creative Studio
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home3-dark">
-                              <a className="sub-link">
-                                Business Startup
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home4-dark">
-                              <a className="sub-link">
-                                One Page
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/home/home5-dark">
-                              <a className="sub-link">
-                                Freelancer
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li>
