@@ -109,8 +109,8 @@ const Footer = () => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by
-            <a href="#0">ThemesCamp</a>.
+            © 2022,  Made with Blue Chameleon by 
+            <a href="https://decentr4l.com">Decentr4l</a>.
           </p>
         </div>
       </div>
