@@ -38,17 +38,17 @@ const INICIO = () => {
     <DarkTheme>
       {/* <Navbar nr={navbarRef} /> */}
       <AboutHeader />
-      <CallToAction subBG />
+   {/*    <CallToAction subBG />
       <AboutIntro />
       <Services4 withPadding withOutTitle />
       <VideoWithTestimonials />
-      <SkillsCircle subBG theme="dark" />
+      <SkillsCircle subBG theme="dark" /> */}
       {/* <Maarquee/> */}
-      <ShowcasesOneCenter />
+   {/*    <ShowcasesOneCenter />
       <Team1 />
       <MinimalArea />
       <Clients1 theme="dark" />
-      <Contacto/>
+      <Contacto/> */}
     </DarkTheme>
   );
 };
