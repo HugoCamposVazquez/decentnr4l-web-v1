@@ -15,14 +15,14 @@ const ContactSection = () => {
   }
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
-    <section className="contact-sec section-padding">
-      <div className="container">
+    <section className="contact-sec">
+      <div className="container-fluid">
         <div className="sec-head custom-font text-center">
-          <h6 className="wow fadeIn" data-wow-delay=".5s">
+          <h6>
             Get In Touch
           </h6>
           <Split>
-            <h3 className="wow words chars splitting" data-splitting>
+            <h3 className="words chars splitting" data-splitting>
               Contact Us.
             </h3>
           </Split>
@@ -30,7 +30,7 @@ const ContactSection = () => {
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="form wow fadeInUp" data-wow-delay=".5s">
+{/*             <div className="form">
               <Formik
                 initialValues={{
                   name: "",
@@ -113,7 +113,7 @@ const ContactSection = () => {
                   </Form>
                 )}
               </Formik>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

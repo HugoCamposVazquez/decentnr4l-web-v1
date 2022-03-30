@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Avo</title>
+        <title>Decentr4l | Blockchain services</title>
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <Cursor />
-      <LoadingScreen />
+      {/* <LoadingScreen /> */}
       <ScrollToTop />
       <Component {...pageProps} />
 

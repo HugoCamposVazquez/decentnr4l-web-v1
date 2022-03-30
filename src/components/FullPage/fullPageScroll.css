@@ -1,0 +1,9 @@
+.container.scroll {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.page {
+  height: 100%;
+}

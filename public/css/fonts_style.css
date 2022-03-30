@@ -1,0 +1,8 @@
+@font-face {font-family: "Termina W00 Demi";
+    src: url("/fonts/faec7b39028890b34621e55089f6e247.eot"); /* IE9*/
+    src: url("/fonts/faec7b39028890b34621e55089f6e247.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/faec7b39028890b34621e55089f6e247.woff2") format("woff2"), /* chrome、firefox */
+    url("/fonts/faec7b39028890b34621e55089f6e247.woff") format("woff"), /* chrome、firefox */
+    url("/fonts/faec7b39028890b34621e55089f6e247.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("/fonts/faec7b39028890b34621e55089f6e247.svg#Termina W00 Demi") format("svg"); /* iOS 4.1- */
+  }

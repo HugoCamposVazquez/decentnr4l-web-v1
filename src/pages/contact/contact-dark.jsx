@@ -4,6 +4,7 @@ import ContactWithMap from "../../components/Contact-with-map";
 import Navbar from "../../components/Navbar";
 import DarkTheme from "../../layouts/Dark";
 import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
+import FullpageWrapper from "../../components/FullPage";
 
 const Contact = () => {
   const fixedHeader = React.useRef(null);
@@ -35,13 +36,16 @@ const Contact = () => {
   return (
     <DarkTheme>
       {/* <Navbar nr={navbarRef} /> */}
-      <NavbarFullMenu />
+   {/*    <NavbarFullMenu />
       <ContactHeader sliderRef={fixedHeader} />
       <div className="main-content" ref={MainContent}>
         <ContactWithMap />
-      </div>
+      </div> */}
+      <FullpageWrapper/>
     </DarkTheme>
   );
 };
 
 export default Contact;
+
+

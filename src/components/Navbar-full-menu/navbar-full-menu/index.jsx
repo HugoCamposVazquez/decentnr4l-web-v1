@@ -5,9 +5,8 @@ import Link from "next/link";
 import appData from "../../../data/app.json";
 import handleFullScreenNavbar from "../../../common/handleFullScreenNavbar";
 import MenuBackground from "../../MenuBackground";
-import { FaTelegram } from "react-icons/fa";
-import { FaTwitter} from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import { FaTelegramPlane , FaTwitter, FaDiscord , FaLinkedinIn } from "react-icons/fa";
+
 
 const NavbarFullMenu = ({ theme, lr }) => {
   React.useEffect(() => {
@@ -24,7 +23,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <a href="#0">
               {theme ? (
                 theme === "light" ? (
-                  <img src={`${appData.darkLogo}`} alt="logo" />
+                  <img src={`${appData.darkLogo}`} alt="log o" />
                 ) : (
                   <img src={`${appData.lightLogo}`} alt="logo" />
                 )
@@ -34,18 +33,16 @@ const NavbarFullMenu = ({ theme, lr }) => {
             </a>
           </div>
           <div className="menu-icon">
-            <span className="icon">
-              <i></i>
-              <i></i>
-            </span>
             <Split>
               <span className="text" data-splitting>
-                <span className="menu-text"></span>
+                <span className="menu-text"><i></i>
+              <i></i></span>
               </span>
             </Split>
           </div>
         </div>
       </div>
+
 
       <div className="hamenu">
         <div className="container-fluid">
@@ -54,11 +51,12 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="menu-links">
                 <ul className="main-menu">
                   <li>
-                    <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">01.</span>Home
-                        <i className="fas fa-angle-right"></i>
-                      </span>
+                  <div className="o-hidden">
+                      <Link href="/about/about-dark">
+                        <a className="link">
+                         HOME
+                        </a>
+                      </Link>
                     </div>
                     <div className="sub-menu">
                       <ul>
@@ -73,7 +71,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/home/home1-dark">
                               <a className="sub-link">
-                                <span className="nm">01.</span>Main Home
+                                Main Home
                               </a>
                             </Link>
                           </div>
@@ -82,7 +80,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/home/home2-dark">
                               <a className="sub-link">
-                                <span className="nm">02.</span>Creative Studio
+                                Creative Studio
                               </a>
                             </Link>
                           </div>
@@ -91,7 +89,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/home/home3-dark">
                               <a className="sub-link">
-                                <span className="nm">03.</span> Business Startup
+                                Business Startup
                               </a>
                             </Link>
                           </div>
@@ -100,7 +98,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/home/home4-dark">
                               <a className="sub-link">
-                                <span className="nm">04.</span>One Page
+                                One Page
                               </a>
                             </Link>
                           </div>
@@ -109,7 +107,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/home/home5-dark">
                               <a className="sub-link">
-                                <span className="nm">05.</span>Freelancer
+                                Freelancer
                               </a>
                             </Link>
                           </div>
@@ -121,17 +119,18 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/about/about-dark">
                         <a className="link">
-                          <span className="nm">02.</span>About Us
+                         About Us
                         </a>
                       </Link>
                     </div>
                   </li>
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">03.</span>Portfolio
-                        <i className="fas fa-angle-right"></i>
-                      </span>
+                    <Link href="/about/about-dark">
+                        <a className="link">
+                         PORTFOLIO
+                        </a>
+                      </Link>
                     </div>
                     <div className="sub-menu">
                       <ul>
@@ -155,7 +154,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/works2/works2-dark">
                               <a className="sub-link">
-                                <span className="nm">02.</span>Masonry 3 Columns
+                                Masonry 3 Columns
                               </a>
                             </Link>
                           </div>
@@ -164,7 +163,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/works3/works3-dark">
                               <a className="sub-link">
-                                <span className="nm">03.</span>Masonry 2 Columns
+                                Masonry 2 Columns
                               </a>
                             </Link>
                           </div>
@@ -173,7 +172,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/works4/works4-dark">
                               <a className="sub-link">
-                                <span className="nm">04.</span>Pinterest List
+                                Pinterest List
                               </a>
                             </Link>
                           </div>
@@ -184,10 +183,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
                   <li>
                     <div className="o-hidden">
-                      <span className="link dmenu">
-                        <span className="nm">04.</span>Showcases
-                        <i className="fas fa-angle-right"></i>
-                      </span>
+                    <Link href="/about/about-dark">
+                        <a className="link">
+                         SHOWCASES
+                        </a>
+                      </Link>
                     </div>
                     <div className="sub-menu">
                       <ul>
@@ -202,7 +202,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/showcase/showcase-dark">
                               <a className="sub-link">
-                                <span className="nm">01.</span>Full Screen
+                                Full Screen
                               </a>
                             </Link>
                           </div>
@@ -211,7 +211,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/showcase2/showcase2-dark">
                               <a className="sub-link">
-                                <span className="nm">02.</span>Creative Carousel
+                                Creative Carousel
                               </a>
                             </Link>
                           </div>
@@ -220,7 +220,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/showcase3/showcase3-dark">
                               <a className="sub-link">
-                                <span className="nm">03.</span>Radius Carousel
+                                Radius Carousel
                               </a>
                             </Link>
                           </div>
@@ -229,7 +229,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                           <div className="o-hidden">
                             <Link href="/showcase4/showcase4-dark">
                               <a className="sub-link">
-                                <span className="nm">04.</span>Columns Carousel
+                                Columns Carousel
                               </a>
                             </Link>
                           </div>
@@ -239,10 +239,10 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
 
                   <li>
-                    <div className="o-hidden">
+                    <div className="">
                       <Link href="/contact/contact-dark">
                         <a className="link">
-                          <span className="nm">05.</span>Contact
+                          Contact
                         </a>
                       </Link>
                     </div>
@@ -254,9 +254,10 @@ const NavbarFullMenu = ({ theme, lr }) => {
               <div className="cont-info">
                 <nav className="social-nav"> <span className="social-nav-text">Follow us:</span>
                   <ul className="social-list">
-                    <li><a rel="noopener noreferrer" href="https://www.instagram.com/justcoded_official/" target="_blank" title="Instagram"><FaTelegram/></a></li>
-                    <li><a rel="noopener noreferrer" href="https://www.linkedin.com/company/justcoded/" target="_blank" title="LinkedIn"><FaTwitter/></a></li>
-                    <li><a rel="noopener noreferrer" href="https://www.behance.net/justcoded" target="_blank" title="Behance"><FaDiscord/></a></li>
+                    <li><a className="glyphicon" rel="noopener noreferrer" href="https://t.me/Decentr4l" target="_blank" title="Telegram"><FaTelegramPlane/></a></li>
+                    <li><a className="glyphicon" rel="noopener noreferrer" href="https://twitter.com/Decentr4l_ofi/" target="_blank" title="Twitter"><FaTwitter/></a></li>
+                    <li><a className="glyphicon" rel="noopener noreferrer" href="https://discord.com/invite/Kmp5Yxzc7a" target="_blank" title="Discord"><FaDiscord/></a></li>
+                    <li><a className="glyphicon" rel="noopener noreferrer" href="https://www.linkedin.com/company/decentr4l/about/" target="_blank" title="Linkedin"><FaLinkedinIn/></a></li>
                   </ul>
                 </nav>
               </div>

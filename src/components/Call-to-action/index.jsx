@@ -12,17 +12,17 @@ const CallToAction = ({ img, theme, subBG }) => {
         <div className="row">
           <div className="col-md-8 col-lg-9">
             <div className="content sm-mb30">
-              <Split>
-                <h6 className="wow words chars splitting" data-splitting>
+    
+                <h6 className="wow words chars splitting">
                   Let&apos;s Talk
                 </h6>
                 <h2
                   className="wow words custom-font chars splitting"
-                  data-splitting
+                  
                 >
                   about your <b>next project</b>.
                 </h2>
-              </Split>
+          
             </div>
           </div>
 
@@ -31,7 +31,7 @@ const CallToAction = ({ img, theme, subBG }) => {
               <a
                 className={`btn-curve ${
                   theme == "light" ? "btn-blc" : "btn-lit"
-                } wow fadeInUp`}
+                } `}
                 data-wow-delay=".5s"
               >
                 <span>Get In Touch</span>

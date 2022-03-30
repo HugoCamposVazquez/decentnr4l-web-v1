@@ -50,7 +50,7 @@ const Demos = () => {
             margin-top: 25px;
             font-size: 17px;
             font-weight: 400;
-            font-family: "Montserrat", sans-serif;
+            font-family: "Termina W00 Demi" !important;
             text-align: center;
             text-transform: uppercase;
             letter-spacing: 3px;
@@ -86,14 +86,14 @@ const Demos = () => {
           }
 
           .masonery .item-img .tlinks a:last-of-type {
-            background: #75dab4;
+            background: #F1D00A;
             color: #181b21;
             margin-left: 5px;
           }
 
           .masonery .item-img .new {
             padding: 10px 30px;
-            background: #75dab4;
+            background: #F1D00A;
             position: absolute;
             top: 0;
             left: -60px;

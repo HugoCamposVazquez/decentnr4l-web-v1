@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const AboutHeader = () => {
   return (
@@ -11,14 +12,21 @@ const AboutHeader = () => {
         <div className="row">
           <div className="col-lg-12">
           <h1 className="inicio-texto">SERVICIOS BLOKCHAIN</h1>
-            <div className="cont text-center">
-              <div className="path">
-                <a href="#0">CONTÁCTANOS</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+      <div className="container segundo">  
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="cont text-center">
+                <div className="path">
+                <Link href="#contact"><a>CONTÁCTANOS</a></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>  
+
     </header>
   );
 };

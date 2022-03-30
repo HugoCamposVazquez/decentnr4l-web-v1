@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Avo onepage themeforest"
+            content="Decentr4l | Blockchain services"
           />
           <meta
             name="description"
-            content="Avo - Onepage Multi-Purpose HTML5 Template"
+            content="Decentr4l | Blockchain services"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
@@ -44,6 +44,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          <link href="/css/fonts_style.css" rel="stylesheet"/>
         </Head>
 
         <body>

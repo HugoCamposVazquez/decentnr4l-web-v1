@@ -10,10 +10,10 @@ const ContactHeader = ({ sliderRef }) => {
     }
   }, [pageLoaded])
   return (
-    <header ref={sliderRef} className="works-header fixed-slider hfixd valign">
+    <header className="works-header">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-9 col-md-11 static">
+          <div className="col-lg-9 col-md-11">
             <div className="capt mt-50">
               <div className="parlx">
                 <h2 className="custom-font">

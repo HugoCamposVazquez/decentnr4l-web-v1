@@ -13,8 +13,11 @@ import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
 import ShowcasesOneCenter from "../../components/Showcases-one-center";
+import Maarquee from "../../components/marquee";
+import FullpageWrapper from "../../components/FullPage";
+import Contacto from "../contact/contact";
 
-const AboutDark = () => {
+const INICIO = () => {
 /*   const navbarRef = React.useRef(null);
   React.useEffect(() => {
     var navbar = navbarRef.current;
@@ -34,20 +37,20 @@ const AboutDark = () => {
   return (
     <DarkTheme>
       {/* <Navbar nr={navbarRef} /> */}
-      <NavbarFullMenu />
       <AboutHeader />
       <CallToAction subBG />
       <AboutIntro />
       <Services4 withPadding withOutTitle />
       <VideoWithTestimonials />
       <SkillsCircle subBG theme="dark" />
+      {/* <Maarquee/> */}
       <ShowcasesOneCenter />
       <Team1 />
       <MinimalArea />
       <Clients1 theme="dark" />
-      <Footer />
+      <Contacto/>
     </DarkTheme>
   );
 };
 
-export default AboutDark;
+export default INICIO;

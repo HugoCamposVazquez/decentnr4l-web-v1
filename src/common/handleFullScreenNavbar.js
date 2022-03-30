@@ -11,14 +11,15 @@ const handleFullScreenNavbar = () => {
     menuIcon = document.querySelector(".topnav .menu-icon"),
     menuText = document.querySelector(".topnav .menu-text");
 
-  if (menuIcon) {
+
+  if (menuText) {
     menuIcon.addEventListener("click", function () {
       open = !open;
       document.querySelector(".hamenu").classList.toggle("open");
       if (open) {
         animateEl(document.querySelector(".hamenu"), "0px");
         document.querySelector(".topnav .menu-icon ").classList.add("open");
-        menuText.innerHTML = "Close";
+        menuText.innerHTML = "<span><i></i><i></i></span>";
         if (navDark) {
           navDark.classList.add("navlit");
         }
@@ -27,9 +28,9 @@ const handleFullScreenNavbar = () => {
         }
         window.addEventListener("scroll", noScroll);
       } else {
-        delay(300, animateEl(document.querySelector(".hamenu"), "-100%"));
+        delay(1, animateEl(document.querySelector(".hamenu"), "-100%"));
         document.querySelector(".topnav .menu-icon").classList.remove("open");
-        menuText.innerHTML = "Menu";
+        menuText.innerHTML = "<span><i></i><i></i></span>";
 
         if (navDark) {
           navDark.classList.remove("navlit");
@@ -43,7 +44,7 @@ const handleFullScreenNavbar = () => {
     });
     document.querySelectorAll(".main-menu a").forEach((item) => {
       item.addEventListener("click", () => {
-        delay(300, animateEl(document.querySelector(".hamenu"), "-100%"));
+        delay(1, animateEl(document.querySelector(".hamenu"), "-100%"));
         document.querySelector(".topnav .menu-icon").classList.remove("open");
         if (navDark) {
           navDark.classList.remove("navlit");

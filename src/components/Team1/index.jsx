@@ -11,7 +11,7 @@ class Team1 extends React.Component {
   }
   renderArrows = () => {
     return (
-      <div className="navs mt-30 wow fadeInUp" data-wow-delay=".3s">
+      <div className="navs mt-30">
         <span
           className="prev cursor-pointer"
           onClick={() => this.slider.slickPrev()}
@@ -76,11 +76,11 @@ class Team1 extends React.Component {
               >
                 {team1Data.map((item) => (
                   <div
-                    className="item wow fadeInUp"
-                    data-wow-delay=".3s"
+                    className="item"
+                    
                     key={item.id}
                   >
-                    <div className="img wow imago">
+                    <div className="img">
                       <img src={item.image} alt="" />
                     </div>
                     <div className="info">
