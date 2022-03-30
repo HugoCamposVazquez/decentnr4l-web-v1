@@ -3,6 +3,12 @@
   align-items: center;
   height: 100%;
 }
+h1.inicio-texto{
+  text-align: center;
+  font-size: 12rem;
+  text-transform: uppercase;
+  line-height: 13rem;
+}
 .block-sec .testim-box .slick-dots li button {
   display: block;
   opacity: 0;
@@ -285,12 +291,6 @@ h1.inicio-texto {
   font-size: 14.8vw;
   transform: rotate(90deg);
 }
-}
-h1.inicio-texto{
-  text-align: center;
-  font-size: 12rem;
-  text-transform: uppercase;
-  line-height: 13rem;
 }
 .container.segundo {
   max-width: 100%;
