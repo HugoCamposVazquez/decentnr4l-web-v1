@@ -48,7 +48,7 @@ const INICIO = () => {
       <Team1 />
       <MinimalArea />
       <Clients1 theme="dark" />
-      {/* <Contacto/> */}
+      <Contacto/>
     </DarkTheme>
   );
 };
