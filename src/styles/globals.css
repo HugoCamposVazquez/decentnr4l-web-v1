@@ -278,6 +278,13 @@ ul.social-list a.glyphicon svg:hover {
 .hamenu {
   padding: 20px 0px 0px;
 }
+h1.inicio-texto {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4rem;
+  font-size: 14.8vw;
+  transform: rotate(90deg);
+}
 }
 h1.inicio-texto{
   text-align: center;
