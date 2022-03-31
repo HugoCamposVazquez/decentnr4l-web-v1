@@ -398,7 +398,7 @@ span.izquierda {
   color: transparent;
   opacity: 0.1;
   bottom: 0;
-  margin-bottom: 30px;
+  margin-bottom: -50px;
   animation: leftright 5s;
   overflow: hidden;
   white-space: nowrap;
