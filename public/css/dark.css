@@ -1128,22 +1128,17 @@ body {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #F1D00A;
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  background-color: #ffffff;
+  -webkit-transition: width 0.1s ease-in-out, height 0.1s ease-in-out,
+    margin 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  -o-transition: width 0.1s ease-in-out, height 0.1s ease-in-out,
+    margin 0.1s ease-in-out, opacity 0.1s ease-in-out;
+  transition: width 0.1s ease-in-out, height 0.1s ease-in-out,
+    margin 0.1s ease-in-out, opacity 0.1s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
-  margin-left: -40px;
-  margin-top: -40px;
-  width: 80px;
-  height: 80px;
-  background-color: #F1D00A;
-  opacity: 0.3;
+display: none;
 }
 
 .cursor-outer {
@@ -1151,7 +1146,7 @@ body {
   margin-top: -15px;
   width: 40px;
   height: 40px;
-  border: 1px solid #F1D00A;
+  border: 1px solid #ffffff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -1161,7 +1156,7 @@ body {
   transition: all 0.08s ease-out;
 }
 .cursor-outer.cursor-hover {
-  opacity: 0;
+  opacity: 1;
 }
 
 /* ====================== [ End Cursor Style ] ====================== */
@@ -1834,7 +1829,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100vh;
-  background: #21325E;
+  background: #21325ef2;
   padding: 120px 30px 30px;
   overflow: hidden;
   z-index: 9999;
@@ -6220,3 +6215,88 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+.Iam {
+  padding: 0em 5em;
+  font: normal 40px/50px Montserrat, sans-serif;
+  color: #999;
+  position: relative;
+  top: -21px;
+  left: -200px;
+}
+.Iam p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 40px;
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: #ffffff;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+
+
+/*animation*/
+-webkit-animation:move 8s;
+   -moz-animation:move 8s;
+    -ms-animation:move 8s;
+     -o-animation:move 8s;
+        animation:move 8s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+   -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+     -o-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+@keyframes move{
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}

@@ -209,7 +209,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
             </div>
           </div>
         </div>
-        <MenuBackground/>
+       {/*  <MenuBackground/> */}
       </div>
     </>
   );

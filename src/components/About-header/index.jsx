@@ -10,7 +10,17 @@ const AboutHeader = () => {
           <span className="izquierda">BLOCK</span>
           <span className="derecha">CHAIN</span>
           {/* <h1 className="inicio-texto"><span className="uno">SERVICIOS</span><span className="dos">BLOKCHAIN</span></h1> */}
-            <h1 className="inicio-texto"><span className="uno">SERVICIOS</span>
+            <h1 className="inicio-texto">
+            <div id="container">
+              <div id="flip">
+              {/*   <div><div className="prim">Developing</div></div>
+                <div><div className="sec">Creating</div></div>
+                <div><div className="ter">Acelerating</div></div> */}
+                <div><div className="prim">Pladuring</div></div>
+                <div><div className="sec">Desescombring</div></div>
+                <div><div className="ter">Painting</div></div>
+              </div>
+            </div>
             <span className="dos">BLOK</span><span className="tres">CHAIN</span></h1>
           </div>
         </div>
@@ -19,9 +29,9 @@ const AboutHeader = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="cont text-center">
-                <div className="path">
-                <Link href="#contact"><a>Contáctanos</a></Link>
-                </div>
+                <div className="center">
+                  <div className="pulse"><Link href="#contact"><a>Contáctanos</a></Link></div>
+              </div>
               </div>
             </div>
           </div>
