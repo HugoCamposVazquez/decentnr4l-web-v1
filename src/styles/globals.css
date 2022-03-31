@@ -177,7 +177,7 @@ ul.social-list a.glyphicon svg:hover {
 .social-nav{
     z-index: 10000;
     position: absolute;
-    top: 112px;
+    top: 178px;
     color: var(--white);
     right: calc(var(--mdc-layout-grid-margin-widescreen) + 15px);
     display: flex;
@@ -399,6 +399,18 @@ span.izquierda {
   opacity: 0.1;
   bottom: 0;
   margin-bottom: 30px;
+  animation: leftright 5s;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80vw;
+}
+@keyframes leftright {
+  0% {
+    max-width: 0%;
+  }
+  100% {
+    max-width: 100%;
+  }
 }
 span.derecha {
   font-family: 'Termina W05 Black';
@@ -412,6 +424,18 @@ span.derecha {
   opacity: 0.1;
   top: 0%;
   margin-top: 40px;
+  animation: rightleft 6s;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 60vw;
+}
+@keyframes rightleft {
+  100% {
+    max-width: 100%;
+  }
+  0% {
+    max-width: 0%;
+  }
 }
 #container {
   color: #999;
@@ -488,7 +512,7 @@ span.derecha {
   display: none;
 }
 .isoLogo{
-  max-width: 140px;
+  max-width: 130px;
 }
 .logotipo{display: none;}
 .topnav.active .logotipo{
