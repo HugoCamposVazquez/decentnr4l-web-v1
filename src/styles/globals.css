@@ -398,7 +398,7 @@ span.izquierda {
   color: transparent;
   opacity: 0.1;
   bottom: 0;
-  margin-bottom: -50px;
+  margin-bottom: 0px;
   animation: leftright 5s;
   overflow: hidden;
   white-space: nowrap;
@@ -512,9 +512,10 @@ span.derecha {
   display: none;
 }
 .isoLogo{
-  max-width: 130px;
+  max-width: 85px;
 }
 .logotipo{display: none;}
 .topnav.active .logotipo{
   display: block;
+  width: 300px;
 }
