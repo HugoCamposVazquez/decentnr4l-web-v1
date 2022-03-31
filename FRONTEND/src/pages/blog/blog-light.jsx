@@ -33,7 +33,7 @@ const BlogLight = () => {
           <div className="row">
             <div className="col-lg-7 col-md-9">
               <div className="cont">
-                <h1 className="extra-title mb-10">Our Blog.</h1>
+                <h1 className="extra-title mb-10">Our Blog</h1>
                 <p>
                   All the most current news and events of our creative team.
                 </p>
