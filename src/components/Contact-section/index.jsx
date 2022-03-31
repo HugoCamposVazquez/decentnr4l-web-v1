@@ -40,8 +40,6 @@ const ContactSection = () => {
               </div>
             </div>
           </div>   
-            <div className="stroke">CONTÁCTANOS</div>
-             <span>CONTÁCTANOS</span>
           </Split>
           <span className="tbg">Contact</span>
         </div>

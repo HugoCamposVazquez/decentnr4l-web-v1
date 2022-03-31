@@ -44,7 +44,7 @@ const ProjectDetails2Dark = () => {
           projectImage="/img/portfolio/project1/bg.jpg"
           projectTitle="Natural plus modern."
         />
-        <SmallFooter />
+       {/*  <SmallFooter /> */}
       </DarkTheme>
     );
 }
