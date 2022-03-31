@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState, useEffect } from "react"
 import Split from "../../Split";
 import Link from "next/link";
 import appData from "../../../data/app.json";
@@ -8,28 +8,48 @@ import MenuBackground from "../../MenuBackground";
 import { FaTelegramPlane , FaTwitter, FaDiscord , FaLinkedinIn } from "react-icons/fa";
 
 
+
+
+
 const NavbarFullMenu = ({ theme, lr }) => {
+   //navbar scroll when active state
+   const [topnav, setNavbar] = useState(false)
+
+
+ 
+   //navbar scroll changeBackground function
+   const changeBackground = () => {
+     console.log(window.scrollY)
+     if (window.scrollY >= 66) {
+       setNavbar(true)
+     } else {
+       setNavbar(false)
+     }
+   }
+ 
+   useEffect(() => {
+     changeBackground()
+     // adding the event when scroll change background
+     window.addEventListener("scroll", changeBackground)
+   })
+ 
   React.useEffect(() => {
     handleFullScreenNavbar();
   }, []);
   return (
     <>
-      <div
+       <div
         id="navi"
-        className={`topnav ${theme ? (theme === "light" ? "light" : "") : ""}`}
-      >
+        className={topnav ? "topnav active" : "topnav"}>
+   {/*    <div
+        id="navi"
+        className={navbar ? "navbar active" : "navbar"}> */}
         <div className="container-fluid">
           <div className="logo">
             <a href="#0">
-              {theme ? (
-                theme === "light" ? (
-                  <img src={`${appData.darkLogo}`} alt="log o" />
-                ) : (
-                  <img src={`${appData.lightLogo}`} alt="logo" />
-                )
-              ) : (
-                <img src={`${appData.lightLogo}`} alt="logo" />
-              )}
+     
+                <><img className="isoLogo" src={`${appData.isoLogo}`} alt="logo" /><img className="logotipo" src={`${appData.lightLogo}`} alt="logo" /></>
+
             </a>
           </div>
           <div className="menu-icon">

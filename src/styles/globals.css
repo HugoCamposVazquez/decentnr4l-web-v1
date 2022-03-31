@@ -484,3 +484,13 @@ span.derecha {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.topnav.active .isoLogo{
+  display: none;
+}
+.isoLogo{
+  max-width: 140px;
+}
+.logotipo{display: none;}
+.topnav.active .logotipo{
+  display: block;
+}
