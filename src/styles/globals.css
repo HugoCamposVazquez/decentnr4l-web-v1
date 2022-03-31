@@ -483,7 +483,7 @@ span.derecha {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -70%);
 }
 .pulse {
   width: 150px;
@@ -508,14 +508,22 @@ span.derecha {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.topnav.active .isoLogo{
-  display: none;
-}
 .isoLogo{
   max-width: 85px;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, opacity 1s linear;
 }
-.logotipo{display: none;}
+.topnav.active .isoLogo{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  max-width: 0px;
+}
+.logotipo{opacity: 0;}
 .topnav.active .logotipo{
-  display: block;
   width: 300px;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s, opacity 1s linear;
 }
