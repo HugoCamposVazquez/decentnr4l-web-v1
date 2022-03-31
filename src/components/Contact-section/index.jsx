@@ -23,18 +23,18 @@ const ContactSection = () => {
           </h6>
           <Split>
           <div className="showcase-carus">
-            <div class="caption ontop">
-              <div class="o-hidden">
+            <div className="caption ontop">
+              <div className="o-hidden">
                 <h1>
-                  <div class="stroke">Hoodie</div>
+                  <div className="stroke">Hoodie</div>
                   <span>Jacket</span>
                 </h1>
               </div>
             </div>
-            <div class="copy-cap valign">
-              <div class="cap">
+            <div className="copy-cap valign">
+              <div className="cap">
                 <h1>
-                  <div class="stroke">Hoodie</div>
+                  <div className="stroke">Hoodie</div>
                   <span>Jacket</span>
                 </h1>
               </div>
