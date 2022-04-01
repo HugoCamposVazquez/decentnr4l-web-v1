@@ -177,7 +177,7 @@ ul.social-list a.glyphicon svg:hover {
 .social-nav{
     z-index: 10000;
     position: absolute;
-    top: 178px;
+    top: 130px;
     color: var(--white);
     right: calc(var(--mdc-layout-grid-margin-widescreen) + 15px);
     display: flex;
@@ -444,7 +444,7 @@ span.derecha {
   font-weight: bold;
   position: relative;
   top: 32px;
-  left: -4px;
+  left: -10px;
 }
 
 #flip {
