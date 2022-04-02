@@ -506,7 +506,11 @@ span.derecha {
   font-size: 20px;
   text-align: center;
   line-height: 150px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.textopulse{
+  font-family: 'Termina W00 Demi';
+  font-size: 15px;
 }
 .pulse {
   width: 150px;
@@ -517,24 +521,23 @@ span.derecha {
   font-size: 20px;
   text-align: center;
   line-height: 150px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: -1; /* We'll come back to this */
-/*   position: absolute; */
-  top: 0px;
-  right: 0;
-  transition: opacity 10.5s ease-in-out;
+  position: absolute;
+  top: -64px;
+  right: -15px;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  background-image: radial-gradient(#fecf00, #c8a701, #f7d00000);
 }
 .pulse:hover {
   width: 150px;
   height: 150px;
-  background-image: radial-gradient(#fecf00, #c8a701, #f7d00000);
   border-radius: 50%;
   color: #fff;
-  font-size: 20px;
   text-align: center;
   line-height: 150px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index: 0;
+  opacity: 1;
 
 }
 .isoLogo{

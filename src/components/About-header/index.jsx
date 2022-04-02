@@ -33,7 +33,7 @@ const AboutHeader = () => {
             <div className="col-lg-12">
               <div className="cont text-center">
                 <div className="center">
-                  <div className="pulse"><Link href="#contact"><a>Contáctanos</a></Link></div>
+                  <div className="textopulse">Contáctanos<Link href="#contact"><a className="pulse">Contáctanos</a></Link></div>
               </div>
               </div>
             </div>
