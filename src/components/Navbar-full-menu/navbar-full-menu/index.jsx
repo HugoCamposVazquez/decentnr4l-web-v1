@@ -48,7 +48,18 @@ const NavbarFullMenu = ({ theme, lr }) => {
           <div className="logo">
             <a href="#0">
      
-                <><img className="isoLogo" src={`${appData.isoLogo}`} alt="logo" /><img className="logotipo" src={`${appData.lightLogo}`} alt="logo" /></>
+                <><img className="logotipo" src={`${appData.lightLogo}`} alt="logo" />{/* <span className="letrasLogo">Decentr4l</span> */}
+                <ul id="list">
+                  <li>D</li>
+                  <li>E</li>
+                  <li>C</li>
+                  <li>E</li>
+                  <li>N</li>
+                  <li>T</li>
+                  <li>R</li>
+                  <li>4</li>
+                  <li>L</li>
+                </ul></>
 
             </a>
           </div>

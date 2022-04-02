@@ -540,11 +540,150 @@ span.derecha {
   opacity: 1;
 
 }
-.isoLogo{
-  max-width: 85px;
+#list {
+	position: absolute;
+}
+#list li {
+  float: left;
+  margin: 0 1px;
+  opacity: 0;
+  -webkit-animation: fadeout 0.2s ease-out both;
+  animation: fadeout 0.2s ease-out both;
+  font-family: 'Termina W00 Demi';
+  font-size: 1.9rem;
+  position: relative;
+  top: -14px;
+  right: -48px
+}
+@keyframes fadeout {
+	to {
+		opacity: 0;
+		transform: translate3d(0, 0, 0);
+	}
+	from {
+		opacity: 1;
+		transform: translate3d(0, -20%, 0);
+	}
+}
+#list li:nth-child(2) {
+	animation-delay: 0.1s;
+}
+#list li:nth-child(2) {
+	animation-delay: 0.2s;
+}
+#list li:nth-child(3) {
+	animation-delay: 0.3s;
+}
+#list li:nth-child(4) {
+	animation-delay: 0.4s;
+}
+#list li:nth-child(5) {
+	animation-delay: 0.5s;
+}
+#list li:nth-child(6) {
+	animation-delay: 0.6s;
+}
+#list li:nth-child(7) {
+	animation-delay: 0.7s;
+}
+#list li:nth-child(8) {
+	animation-delay: 0.8s;
+}
+#list li:nth-child(9) {
+	animation-delay: 0.9s;
+}
+.topnav.active #list li {
+  float: left;
+  margin: 0 1px;
+  opacity: 0;
+  -webkit-animation: fadeIn 0.2s ease-in both;
+  animation: fadeIn 0.2s ease-in both;
+  font-family: 'Termina W00 Demi';
+  font-size: 1.9rem;
+  position: relative;
+  top: -14px;
+  right: -48px
+}
+
+.topnav.active #list li:nth-child(2) {
+	animation-delay: 0.1s;
+}
+.topnav.active #list li:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.topnav.active #list li:nth-child(3) {
+	animation-delay: 0.3s;
+}
+.topnav.active #list li:nth-child(4) {
+	animation-delay: 0.4s;
+}
+.topnav.active #list li:nth-child(5) {
+	animation-delay: 0.5s;
+}
+.topnav.active #list li:nth-child(6) {
+	animation-delay: 0.6s;
+}
+.topnav.active #list li:nth-child(7) {
+	animation-delay: 0.7s;
+}
+.topnav.active #list li:nth-child(8) {
+	animation-delay: 0.8s;
+}
+.topnav.active #list li:nth-child(9) {
+	animation-delay: 0.9s;
+}
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.topnav.active .logotipo {
+  width: 25px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  position: absolute;
+  left: 46px;
+  opacity: 1;
+  bottom: 40px;
+}
+.isoLogo {
+  max-width: 98px;
   visibility: visible;
   opacity: 1;
+  -webkit-transition: visibility 1s, opacity 1s linear;
   transition: visibility 1s, opacity 1s linear;
+  position: absolute;
+  top: 35px;
+  left: 43px;
+}
+.letrasLogo{
+  font-family: 'Termina W00 Demi';
+  text-transform: uppercase;
+  position: absolute;
+  left: 160px;
+  font-size: 3.5em;
+  bottom: -16px;
+  opacity: 0;
+  -webkit-transition: visibility 0.3s, opacity 0.3s linear;
+  transition: visibility 0.3s, opacity 0.3s linear;
+}
+.topnav.active span.letrasLogo {
+  font-family: 'Termina W00 Demi';
+  text-transform: uppercase;
+  position: absolute;
+  left: 98px;
+  font-size: 2rem;
+  bottom: 34px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 1;
 }
 .topnav.active .isoLogo{
   visibility: hidden;
@@ -552,12 +691,17 @@ span.derecha {
   transition: visibility 1s, opacity 1s linear;
   max-width: 0px;
 }
-.logotipo{opacity: 0;}
-.topnav.active .logotipo{
-  width: 300px;
+.logotipo{
+  width: 48px;
   visibility: visible;
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  position: absolute;
+  left: 70px;
   opacity: 1;
-  transition: visibility 1s, opacity 1s linear;
+  bottom: -7px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
 }
 .container-text{
   position: absolute;
