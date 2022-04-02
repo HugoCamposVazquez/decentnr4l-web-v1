@@ -193,80 +193,6 @@ ul.social-list a.glyphicon svg:hover {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, #ffffff47 2px, transparent 2px), linear-gradient(to bottom, #555555 1px, #856b6b00 2px);
 }
-@media (max-width:767px){
-
-  .mouse-cursor{display: none;}
-  img.isologofloat {
-    max-width: 194px;
-    float: right;
-    position: absolute;
-    left: 17%;
-    top: 22%;
-    opacity: 0.2;
-   /*  animation-name: floating;
-    animation-duration: 5s; */
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}
-@keyframes floating {
-  0% { transform: translate(0,  0px); }
-  50%  { transform: translate(0, 25px); }
-  100%   { transform: translate(0, -0px); }   
-}
-@keyframes drift {
-  from {
-    transform: translateY(-6%);
-  }
-
-  to {
-    transform: translateY(6%);
-  }
-}
-
-@keyframes shadow {
-  from {
-    transform: translate(240%, -240%) scale(0.6);
-  }
-
-  to {
-    transform: translate(205%, -205%) scale(0.8);
-  }
-}
-.hamenu .container-fluid:after {
-  -webkit-transform: perspective(200px) rotateX(
-38deg) scale(2.5,1) translateZ(0);
-  -moz-transform: perspective(200px) rotateX(38deg) scale(2.5,1) translateZ(0);
-  transform: perspective(200px) rotateX(
-38deg) scale(2.5,1) translateZ(0);
-
-  bottom: 0;
-  left: 9px;
-  right: 0;
-  width: 103%;
-  height: 100vh;
-}
-.container-fluid:after {
-  background-position: center bottom;
-  background-size: 29px 25px;
-}
-.hamenu .menu-links {
-  color: #fff;
-  margin-top: 82px;
-  margin-left: 3px;
-}
-.hamenu {
-  padding: 20px 0px 0px;
-}
-h1.inicio-texto {
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 4rem;
-  font-size: 14.8vw;
-  transform: rotate(90deg);
-}
-}
 .container.segundo {
   max-width: 100%;
   width: 100%;
@@ -547,8 +473,8 @@ span.derecha {
   float: left;
   margin: 0 1px;
   opacity: 0;
-  -webkit-animation: fadeout 0.2s ease-out both;
-  animation: fadeout 0.2s ease-out both;
+  -webkit-animation: fadeout 400ms ease-out both;
+  animation: fadeout 400ms ease-out both;
   font-family: 'Termina W00 Demi';
   font-size: 1.9rem;
   position: relative;
@@ -565,33 +491,33 @@ span.derecha {
 		transform: translate3d(0, -20%, 0);
 	}
 }
+
 #list li:nth-child(2) {
-	animation-delay: 0.1s;
-}
-#list li:nth-child(2) {
-	animation-delay: 0.2s;
+	animation-delay: 0.025s;
 }
 #list li:nth-child(3) {
-	animation-delay: 0.3s;
+	animation-delay: 0.065s;
 }
 #list li:nth-child(4) {
-	animation-delay: 0.4s;
+	animation-delay: 0.085s;
 }
 #list li:nth-child(5) {
-	animation-delay: 0.5s;
+	animation-delay: 0.1s;
 }
 #list li:nth-child(6) {
-	animation-delay: 0.6s;
+	animation-delay: 0.2s;
 }
 #list li:nth-child(7) {
-	animation-delay: 0.7s;
+	animation-delay: 0.3s;
 }
 #list li:nth-child(8) {
-	animation-delay: 0.8s;
+	animation-delay: 0.4s;
 }
 #list li:nth-child(9) {
-	animation-delay: 0.9s;
+	animation-delay: 0.5s;
 }
+
+
 .topnav.active #list li {
   float: left;
   margin: 0 1px;
@@ -605,32 +531,30 @@ span.derecha {
   right: -48px
 }
 
+
 .topnav.active #list li:nth-child(2) {
-	animation-delay: 0.1s;
-}
-.topnav.active #list li:nth-child(2) {
-	animation-delay: 0.2s;
+	animation-delay: 0.025s;
 }
 .topnav.active #list li:nth-child(3) {
-	animation-delay: 0.3s;
+	animation-delay: 0.065s;
 }
 .topnav.active #list li:nth-child(4) {
-	animation-delay: 0.4s;
+	animation-delay: 0.085s;
 }
 .topnav.active #list li:nth-child(5) {
-	animation-delay: 0.5s;
+	animation-delay: 0.1s;
 }
 .topnav.active #list li:nth-child(6) {
-	animation-delay: 0.6s;
+	animation-delay: 0.2s;
 }
 .topnav.active #list li:nth-child(7) {
-	animation-delay: 0.7s;
+	animation-delay: 0.3s;
 }
 .topnav.active #list li:nth-child(8) {
-	animation-delay: 0.8s;
+	animation-delay: 0.4s;
 }
 .topnav.active #list li:nth-child(9) {
-	animation-delay: 0.9s;
+	animation-delay: 0.5s;
 }
 
 
@@ -765,4 +689,199 @@ span.derecha {
   padding: 0px 0px 30px 0px;
   margin: -30px 0;
   font-size: 40px;
+}
+@media (max-width:767px){
+  .logotipo {
+    width: 31px;
+    visibility: visible;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    position: absolute;
+    left: 34px;
+    opacity: 1;
+    bottom: -5px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+  .mouse-cursor{display: none;}
+  img.isologofloat {
+    max-width: 194px;
+    float: right;
+    position: absolute;
+    left: 17%;
+    top: 22%;
+    opacity: 0.2;
+   /*  animation-name: floating;
+    animation-duration: 5s; */
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 25px); }
+  100%   { transform: translate(0, -0px); }   
+}
+@keyframes drift {
+  from {
+    transform: translateY(-6%);
+  }
+
+  to {
+    transform: translateY(6%);
+  }
+}
+
+@keyframes shadow {
+  from {
+    transform: translate(240%, -240%) scale(0.6);
+  }
+
+  to {
+    transform: translate(205%, -205%) scale(0.8);
+  }
+}
+.hamenu .container-fluid:after {
+  -webkit-transform: perspective(200px) rotateX(
+38deg) scale(2.5,1) translateZ(0);
+  -moz-transform: perspective(200px) rotateX(38deg) scale(2.5,1) translateZ(0);
+  transform: perspective(200px) rotateX(
+38deg) scale(2.5,1) translateZ(0);
+
+  bottom: 0;
+  left: 9px;
+  right: 0;
+  width: 103%;
+  height: 100vh;
+}
+.container-fluid:after {
+  background-position: center bottom;
+  background-size: 29px 25px;
+}
+.hamenu .menu-links {
+  color: #fff;
+  margin-top: 82px;
+  margin-left: 3px;
+}
+.hamenu {
+  padding: 20px 0px 0px;
+}
+h1.inicio-texto {
+  text-align: left;
+  text-transform: none;
+  line-height: 1.4;
+  font-size: 2vw;
+  right: 88px;
+  position: absolute;
+  bottom: -55px;
+}
+.topnav.active .logotipo {
+  width: 23px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  position: absolute;
+  left: 27px;
+  opacity: 1;
+  bottom: 16px;
+}
+.topnav.active #list li {
+  float: left;
+  margin: 0 1px;
+  opacity: 0;
+  -webkit-animation: fadeIn 0.2s ease-in both;
+  animation: fadeIn 0.2s ease-in both;
+  font-family: 'Termina W00 Demi';
+  font-size: 1.5rem;
+  position: relative;
+  top: -13px;
+  right: -51px;
+}
+#list li {
+  float: left;
+  margin: 0 1px;
+  opacity: 0;
+  -webkit-animation: fadeout 400ms ease-out both;
+  animation: fadeout 400ms ease-out both;
+  font-family: 'Termina W00 Demi';
+  font-size: 1.4rem;
+  position: relative;
+  top: -10px;
+  right: -51px;
+}
+span.dos {
+  font-size: 55px;
+  color: #F1D00A;
+  font-family: 'Termina W05 Black';
+}
+.container-text {
+  position: absolute;
+  -webkit-perspective: 1994400000px;
+  perspective: 1994400000px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: rotate 8s ease-in infinite 0s;
+  animation: rotate 8s ease-in infinite 0s;
+  top: -34px;
+  left: 0px;
+}
+.container-fluid.inicio {
+  margin-left: 0px;
+}
+.container-text div {
+  position: absolute;
+  color: white;
+  height: 61px;
+  width: 300px;
+  padding: 0px 0px 30px 0px;
+  margin: -30px 0;
+  font-size: 40px;
+}
+span.derecha {
+  font-family: 'Termina W05 Black';
+  font-size: 22vw;
+  position: absolute;
+  z-index: -1;
+  right: -3px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  opacity: 0.1;
+  top: 0%;
+  margin-top: 118px;
+  -webkit-animation: rightleft 6s;
+  animation: rightleft 6s;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 87vw;
+}
+span.izquierda {
+  font-family: 'Termina W05 Black';
+  font-size: 22vw;
+  position: absolute;
+  z-index: -1;
+  left: -39px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+  opacity: 0.1;
+  bottom: 86px;
+  margin-bottom: 0px;
+  -webkit-animation: leftright 5s;
+  animation: leftright 5s;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 108vw;
+}
+span.tres {
+  font-size: 61px;
+  font-family: 'Termina W05 Black';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  position: absolute;
+  top: 52px;
+  left: 0px;
+}
 }

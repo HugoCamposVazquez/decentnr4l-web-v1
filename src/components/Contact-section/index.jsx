@@ -21,26 +21,6 @@ const ContactSection = () => {
           <h6>
             Get In Touch
           </h6>
-          <Split>
-          <div className="showcase-carus">
-            <div className="caption ontop">
-              <div className="o-hidden">
-                <h1>
-                  <div className="stroke">Hoodie</div>
-                  <span>Jacket</span>
-                </h1>
-              </div>
-            </div>
-            <div className="copy-cap valign">
-              <div className="cap">
-                <h1>
-                  <div className="stroke">Hoodie</div>
-                  <span>Jacket</span>
-                </h1>
-              </div>
-            </div>
-          </div>   
-          </Split>
           <span className="tbg">Contact</span>
         </div>
         <div className="row justify-content-center">
