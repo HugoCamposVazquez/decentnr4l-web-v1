@@ -176,8 +176,6 @@ ul.social-list a.glyphicon svg:hover {
 }
 .social-nav{
     z-index: 10000;
-    position: absolute;
-    top: 130px;
     color: var(--white);
     right: calc(var(--mdc-layout-grid-margin-widescreen) + 15px);
     display: flex;
@@ -374,8 +372,8 @@ span.tres {
   -webkit-text-stroke-color: #ffffff;
   color: transparent;
   position: absolute;
-  top: 75px;
-  left: 365px;
+  top: 0px;
+  left: 455px;
 }
 .cont a {
   font-family: 'Termina W00 Demi';
@@ -469,21 +467,46 @@ span.derecha {
   right: 0px;
 }
 
+
+.wrap {  perspective: 800px; perspective-origin: 50% 100px;}
+.cube {    
+  position: relative;  
+  width: 200px; 
+  transform-style: preserve-3d;
+  }
+  .cube div {   
+    position: absolute; 
+    width: 200px;
+    height: 200px;
+  }
+  
 @keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
+  99.99% {margin-top:0px;}
+  71% {margin-top:0px;}
+  66% {margin-top:-90px;}
+  38% {margin-top:-90px;}
+  33% {margin-top:-180px;}
+  5% {margin-top:-180px;}
+  0% {margin-top:-270px;} 
 }
+
 .center {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
+}
+.cont-text {
+  width: 150px;
+  height: 150px;
+  background: #f1ce0a00;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .pulse {
   width: 150px;
@@ -495,17 +518,23 @@ span.derecha {
   text-align: center;
   line-height: 150px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: -1; /* We'll come back to this */
+/*   position: absolute; */
+  top: 0px;
+  right: 0;
+  transition: opacity 10.5s ease-in-out;
 }
 .pulse:hover {
   width: 150px;
   height: 150px;
-  background: #f1ce0a93;
+  background-image: radial-gradient(#fecf00, #c8a701, #f7d00000);
   border-radius: 50%;
   color: #fff;
   font-size: 20px;
   text-align: center;
   line-height: 150px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 0;
 
 }
 .isoLogo{
@@ -526,4 +555,67 @@ span.derecha {
   visibility: visible;
   opacity: 1;
   transition: visibility 1s, opacity 1s linear;
+}
+.container-text{
+  position: absolute;
+  perspective: 1994400000px;
+  transform-style: preserve-3d;
+  animation: rotate 8s ease-in infinite 0s;
+  top: -26px;
+  left: 20px;
+}
+.container-text div{
+  background: #193360;
+}
+.container-text div:nth-child(1){
+  transform: rotateX(360deg) translateZ(30px);
+  
+}
+.container-text div:nth-child(2){
+  transform: rotateX(270deg) translateZ(30px);
+}
+.container-text div:nth-child(3){
+  transform: rotateX(180deg) translateZ(30px);
+
+}
+.container-text div:nth-child(4){
+  transform: rotateX(90deg) translateZ(30px);
+  
+}
+@keyframes mv {
+
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+@keyframes rotate {
+  0%{
+      transform: rotateX(0deg);
+  }
+  25%{
+      transform: rotateX(90deg);
+  }
+  50%{
+      transform: rotateX(180deg);
+      
+  }
+
+  75%{
+      transform: rotateX(270deg);
+  }
+  100%{
+      transform: rotateX(360deg);
+  }
+}
+.container-text div {
+  position: absolute;
+  color: white;
+  height: 61px;
+  width: 420px;
+  padding: 0px 0px 30px 0px;
+  margin: -30px 0;
+  font-size: 40px;
 }

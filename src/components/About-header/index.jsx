@@ -11,17 +11,20 @@ const AboutHeader = () => {
           <span className="derecha">CHAIN</span>
           {/* <h1 className="inicio-texto"><span className="uno">SERVICIOS</span><span className="dos">BLOKCHAIN</span></h1> */}
             <h1 className="inicio-texto">
-            <div id="container">
+          {/*   <div id="container">
               <div id="flip">
-              {/*   <div><div className="prim">Developing</div></div>
-                <div><div className="sec">Creating</div></div>
-                <div><div className="ter">Acelerating</div></div> */}
                 <div><div className="prim">Pladuring</div></div>
                 <div><div className="sec">Desescombring</div></div>
                 <div><div className="ter">Painting</div></div>
               </div>
+            </div> */}
+            <div className="container-text">    
+                <div>Designing</div>
+                <div>Developing</div>
+                <div>Incuvating</div>
+                <div>Acelerating</div>
             </div>
-            <span className="dos">BLOK</span><span className="tres">CHAIN</span></h1>
+            <span className="dos">BLOCK</span><span className="tres">CHAIN</span></h1>
           </div>
         </div>
       </div>

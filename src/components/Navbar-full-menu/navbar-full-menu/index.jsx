@@ -214,7 +214,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4">
+            <div className="col-lg-3 col-md-4 soc">
               <div className="cont-info">
                 <nav className="social-nav"> <span className="social-nav-text">Follow us:</span>
                   <ul className="social-list">
