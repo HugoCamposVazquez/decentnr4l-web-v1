@@ -885,3 +885,47 @@ span.tres {
   left: 0px;
 }
 }
+@media (max-width: 330px){
+  .logotipo {
+    width: 28px;
+    visibility: visible;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    position: absolute;
+    left: 34px;
+    opacity: 1;
+    bottom: 22px;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.topnav.active .logotipo {
+  width: 19px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  position: absolute;
+  left: 22px;
+  opacity: 1;
+  bottom: 47px;
+}
+.topnav.active #list li {
+  font-size: 1.2rem;
+}
+#list li {
+  font-size: 1.2rem;
+}
+.menu-icon {
+  top: 2px;
+}
+.topnav.active .menu-icon {
+  top: -8px;
+}
+h1.inicio-texto {
+  text-align: left;
+  text-transform: none;
+  line-height: 1.4;
+  font-size: 2vw;
+  right: 32px;
+  position: absolute;
+  bottom: -55px;
+}
+}
