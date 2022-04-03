@@ -316,24 +316,27 @@ span.izquierda {
   font-size: 14vw;
   position: absolute;
   z-index: -1;
-  left: -269px;
+  margin-left: -286px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   color: transparent;
   opacity: 0.1;
   bottom: 0;
   margin-bottom: 0px;
-  animation: leftright 5s;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 80vw;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: runLeft;
+  -webkit-animation-duration: 20s;
+  width: 60vw;
 }
-@keyframes leftright {
+@-webkit-keyframes runLeft {
   0% {
-    max-width: 0%;
+    left: 0;
+  }
+  50% {
+    left: -10%;
   }
   100% {
-    max-width: 100%;
+    left: 0;    
   }
 }
 span.derecha {
@@ -348,10 +351,23 @@ span.derecha {
   opacity: 0.1;
   top: 0%;
   margin-top: 40px;
-  animation: rightleft 6s;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: runRight;
+  -webkit-animation-duration: 20s;
   overflow: hidden;
   white-space: nowrap;
   width: 60vw;
+}
+@-webkit-keyframes runRight {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: -10%;
+  }
+  100% {
+    right: 0;    
+  }
 }
 @keyframes rightleft {
   100% {
@@ -850,11 +866,23 @@ span.derecha {
   opacity: 0.1;
   top: 0%;
   margin-top: 118px;
-  -webkit-animation: rightleft 6s;
-  animation: rightleft 6s;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 25s;
   overflow: hidden;
   white-space: nowrap;
   width: 87vw;
+}
+@-webkit-keyframes run {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 10%;
+  }
+  100% {
+    right: -10;    
+  }
 }
 span.izquierda {
   font-family: 'Termina W05 Black';
