@@ -895,18 +895,21 @@ span.izquierda {
   font-size: 22vw;
   position: absolute;
   z-index: -1;
-  left: -39px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   color: transparent;
   opacity: 0.1;
-  bottom: 86px;
+  bottom: 48px;
   margin-bottom: 0px;
   -webkit-animation: leftright 5s;
   animation: leftright 5s;
   overflow: hidden;
   white-space: nowrap;
-  width: 108vw;
+  width: 100vw;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: runLeft;
+  -webkit-animation-duration: 20s;
+  margin-left: -18px;
 }
 span.tres {
   font-size: 61px;
