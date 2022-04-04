@@ -1,5 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Lottie from "react-lottie";
+import texto from "../../assets/texto.json"
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  renderSettings: {
+    preserveAspectRatio: 'xMidYmid slice'
+  }
+};
 
 const AboutHeader = () => {
   return (
@@ -10,6 +20,7 @@ const AboutHeader = () => {
           <span className="izquierda">BLOCK</span>
           <span className="derecha">CHAIN</span>
           {/* <h1 className="inicio-texto"><span className="uno">SERVICIOS</span><span className="dos">BLOKCHAIN</span></h1> */}
+          <div className="texto-inicio"><Lottie options={{animationData: texto, ...defaultOptions }} /></div>
             <h1 className="inicio-texto">
           {/*   <div id="container">
               <div id="flip">
@@ -17,13 +28,13 @@ const AboutHeader = () => {
                 <div><div className="sec">Desescombring</div></div>
                 <div><div className="ter">Painting</div></div>
               </div>
-            </div> */}
-            <div className="container-text">    
-                <div>Designing</div>
+            </div> */}   
+{/*                 <div>Designing</div>
                 <div>Developing</div>
                 <div>Incuvating</div>
-                <div>Acelerating</div>
-            </div>
+                <div>Acelerating</div> */}
+                
+        
             <span className="dos">BLOCK</span><span className="tres">CHAIN</span></h1>
           </div>
         </div>
