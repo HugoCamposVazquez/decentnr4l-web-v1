@@ -3,6 +3,28 @@
   align-items: center;
   height: 100%;
 }
+#contact input {
+  background: #193360;
+  border: 2px solid white;
+  width: 28.17vw;
+  color: white;
+}
+#contact textarea{
+  color:white;
+}
+form.grid.grid-cols-1.gap-y-6 {
+  background: #193360;
+}
+form .row {
+  margin: 0!important;
+}
+#contact textarea {
+  background: #193360;
+  border: 2px solid white;
+  width: 100%;
+  border-top: none;
+  height: 238px;
+}
 .block-sec .testim-box .slick-dots li button {
   display: block;
   opacity: 0;
@@ -67,7 +89,15 @@ body .slick-dots li button {
   object-fit: cover;
   width: 100%;
 }
-
+#contact button {
+  background: #f4ca00;
+  color: #193360!important;
+  padding: 10px 91px;
+  font-weight: 600;
+    float: right;
+    margin-top: -37px;
+}
+input:-internal-autofill-selected {background-color: red;}
 .projdtal .justified-gallery .big-img {
   min-height: 700px;
   height: 700px;
@@ -272,9 +302,11 @@ html {
 div#contact {
   height: 100vh;
   -moz-box-align: center;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
+  width: 88vw;
+  margin: 0 auto;
 }
 a.link:hover {
   --fill-color: #F1D00A;
@@ -713,6 +745,21 @@ span.derecha {
   font-size: 40px;
 }
 @media (max-width:767px){
+  form .row {
+    margin: 0!important;
+    width: 100%;
+    display: block;
+}
+div#contact {
+  width: 100vw;
+  margin: 0 auto;
+}
+#contact input {
+  background: #193360;
+  border: 2px solid white;
+  width: 100%;
+  color: white;
+}
   .logotipo {
     width: 31px;
     visibility: visible;

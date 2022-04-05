@@ -10,15 +10,21 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@apollo/client": "^3.1.4",
     "@fullpage/react-fullpage": "^0.1.22",
+    "axios": "^0.21.1",
+    "dotenv": "^16.0.0",
     "formik": "^2.2.9",
+    "graphql": "^15.3.0",
     "gsap": "3.6.1",
     "next": "12.0.7",
+    "nodemailer": "^6.7.3",
     "react": "17.0.2",
     "react-circular-progressbar": "^2.0.4",
     "react-countup": "^6.1.0",
     "react-dom": "17.0.2",
     "react-gsap": "^3.2.1",
+    "react-hook-form": "^6.15.3",
     "react-icons": "^4.3.1",
     "react-lottie": "^1.2.3",
     "react-modal-video": "^1.2.8",
@@ -26,9 +32,7 @@
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
-    "swiper": "^7.4.1",
-    "graphql": "^15.3.0",
-    "@apollo/client": "^3.1.4"
+    "swiper": "^7.4.1"
   },
   "devDependencies": {
     "eslint": "8.6.0",
