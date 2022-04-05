@@ -13,7 +13,7 @@ const defaultOptions = {
 
 const AboutHeader = () => {
   return (
-    <section className="inicio">
+    <section className="inicio"> 
       <div className="container-fluid inicio">
         <div className="row">
           <div className="col-lg-12">

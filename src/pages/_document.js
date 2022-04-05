@@ -1,4 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import React from "react";
+import Footer from '../components/Footer';
+import DarkTheme from "../layouts/Dark";
+import NavbarFullMenu from "../components/Navbar-full-menu/navbar-full-menu";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -48,8 +52,9 @@ class MyDocument extends Document {
         </Head>
 
         <body>
-          <Main />
-          <NextScript />
+            <Main />
+            <Footer/>
+            <NextScript />
         </body>
       </Html>
     );
