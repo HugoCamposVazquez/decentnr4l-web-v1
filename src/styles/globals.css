@@ -3,11 +3,22 @@
   align-items: center;
   height: 100%;
 }
+span.text-red-400.text-sm.py-2 {
+  display: block;
+  position: absolute;
+  margin-top: -98px;
+  margin-left: 22px;
+  color: red;
+}
 #contact input {
   background: #193360;
-  border: 2px solid white;
-  width: 28.17vw;
+  border: none;
+  width: 28.01vw;
   color: white;
+}
+input.emailclass {
+  border-left: 2px solid white!important;
+  border-right: 2px solid white!important;
 }
 #contact textarea{
   color:white;
@@ -17,6 +28,7 @@ form.grid.grid-cols-1.gap-y-6 {
 }
 form .row {
   margin: 0!important;
+  border: 2px solid white;
 }
 #contact textarea {
   background: #193360;
@@ -351,7 +363,7 @@ h1.inicio-texto {
 }
 span.izquierda {
   font-family: 'Termina W05 Black';
-  font-size: 14vw;
+  font-size: 17vw;
   position: absolute;
   z-index: -1;
   margin-left: -286px;
@@ -379,7 +391,7 @@ span.izquierda {
 }
 span.derecha {
   font-family: 'Termina W05 Black';
-  font-size: 14vw;
+  font-size: 17vw;
   position: absolute;
   z-index: -1;
   right: -139px;
@@ -754,11 +766,25 @@ div#contact {
   width: 100vw;
   margin: 0 auto;
 }
+input.emailclass {
+  border-left: 0px solid white!important;
+  border-right: 0px solid white!important;
+  border-top: 2px solid white!important;
+  border-bottom: 2px solid white!important;
+}
 #contact input {
   background: #193360;
-  border: 2px solid white;
+  border: none;
   width: 100%;
   color: white;
+}
+#contact button {
+  margin-top: -67px;
+  width: 100%;
+}
+p.aceptar {
+  position: relative;
+  top: 71px;
 }
   .logotipo {
     width: 31px;
