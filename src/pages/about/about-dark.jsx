@@ -44,19 +44,19 @@ const INICIO = () => {
     <DarkTheme>
       {/* <Navbar nr={navbarRef} /> */}
       <AboutHeader />
-      <CallToAction subBG />
-      <AboutIntro />
-      <Services4 withPadding withOutTitle />
-      <VideoWithTestimonials />
-      <SkillsCircle subBG theme="dark" />
+    {/*   <CallToAction subBG /> */}
+     {/*  <AboutIntro /> */}
+     {/*  <Services4 withPadding withOutTitle /> */}
+      {/* <VideoWithTestimonials /> */}
+     {/*  <SkillsCircle subBG theme="dark" /> */}
       {/* <Maarquee/> */}
-      <ShowcasesOneCenter />
+      {/* <ShowcasesOneCenter /> */}
       <Team1 />
-      <MinimalArea />
-      <Numbers1/>
-      <Testimonials1/>
-      <ClientsBrands/>
-      <ProjectDetails2Dark/>
+     {/*  <MinimalArea /> */}
+     {/*  <Numbers1/> */}
+     {/*  <Testimonials1/> */}
+     {/*  <ClientsBrands/> */}
+{/*       <ProjectDetails2Dark/> */}
       <Clients1 theme="dark" />
       <Contacto/> {/* esto , tamaños de fuente, creo delicado en mobile */}
     </DarkTheme>
