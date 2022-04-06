@@ -5511,16 +5511,8 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
 .footer-half {
   position: relative;
   z-index: 2;
-}
-.footer-half:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
-  background: #151921;
-  z-index: -1;
+  background: rgb(67,67,67);
+    background: linear-gradient(0deg, rgb(4 11 22) 0%, rgb(25 51 96 / 0%) 100%);
 }
 .footer-half .stit {
   display: inline-block;
@@ -5531,8 +5523,8 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
   margin-bottom: 30px;
 }
 .footer-half .cont .logo {
-  width: 55px;
-  margin-bottom: 30px;
+  width: 319px;
+  margin: 33px auto;
 }
 .footer-half .cont .con-info li {
   margin-top: 10px;
@@ -5604,12 +5596,12 @@ a.link:hover{background-size: 100%!important;font-family: "Termina W00 Demi" !im
   object-position: center center;
 }
 .footer-half .copyrights {
-  margin-top: 50px;
-  padding: 30px 0;
-  background: #13161d;
+  padding: 19px 0;
+  font-family: 'Termina W00 Demi';
+  margin: 18px auto 0px;
 }
 .footer-half .copyrights p {
-  font-size: 12px;
+  font-size: 11px;
   color: #999;
 }
 .footer-half .copyrights p a {

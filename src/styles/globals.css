@@ -3,6 +3,77 @@
   align-items: center;
   height: 100%;
 }
+footer .container-fluid {
+  padding: 0;
+}
+.cont a.icon {
+  font-family: 'Termina W00 Demi';
+  font-size: 25px;
+  padding: 0 30px 0px 8px;
+}
+.con-info-dos a {
+  font-family: 'Termina W00 Demi';
+  font-size: 25px!important;
+}
+.con-info ul {
+  display: flex;
+  justify-content: center;
+  color: #F0F0F0!important;
+  font-size: 12px;
+  font-family: 'Termina W00 Demi';
+}
+.con-info-dos ul {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  color: #F0F0F0!important;
+  font-size: 10px;
+  font-family: 'Termina W00 Demi';
+  align-items: center;
+}
+.con-info-dos span {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.con-info ul li{
+padding: 0 8px;
+}
+.con-info-dos ul li {
+  padding: 0 14px;
+}
+span.dos-contact {
+  font-size: 64px;
+  color: #f0f0f0;
+  font-family: 'Termina W05 Black';
+  position: absolute;
+  margin-top: -33px;
+}
+span.pre {
+  position: relative;
+  bottom: 36px;
+  font-size: 20px;
+  font-family: 'Termina W00 Demi';
+  color: #3E497A;
+}
+#contact .row.cont-uno {
+  width: 94vw;
+  margin: 0 auto;
+}
+#contact .row.cont-dos {
+  width: 86vw;
+  margin: 0 auto;
+}
+span.tres-contact {
+  font-size: 64px;
+  font-family: 'Termina W05 Black';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  position: absolute;
+  margin-top: -33px;
+  margin-left: 191px;
+}
 span.text-red-400.text-sm.py-2 {
   display: block;
   position: absolute;
@@ -11,7 +82,7 @@ span.text-red-400.text-sm.py-2 {
   color: red;
 }
 #contact input {
-  background: #193360;
+  background: #21325E;
   border: none;
   width: 28.01vw;
   color: white;
@@ -24,14 +95,16 @@ input.emailclass {
   color:white;
 }
 form.grid.grid-cols-1.gap-y-6 {
-  background: #193360;
+  background: #21325E;
+  margin-top: 80px;
 }
 form .row {
   margin: 0!important;
   border: 2px solid white;
+  margin-top: 84px;
 }
 #contact textarea {
-  background: #193360;
+  background: #21325E;
   border: 2px solid white;
   width: 100%;
   border-top: none;
@@ -103,8 +176,8 @@ body .slick-dots li button {
 }
 #contact button {
   background: #f4ca00;
-  color: #193360!important;
-  padding: 10px 91px;
+  color: #21325E!important;
+  padding: 10px 62px;
   font-weight: 600;
     float: right;
     margin-top: -37px;
@@ -312,13 +385,14 @@ html {
   scroll-behavior: smooth;
 }
 div#contact {
-  height: 100vh;
   -moz-box-align: center;
   display: block;
   align-items: center;
   justify-content: center;
-  width: 88vw;
+  width: 97vw;
   margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 40px;
 }
 a.link:hover {
   --fill-color: #F1D00A;
@@ -702,7 +776,7 @@ span.derecha {
   left: 20px;
 }
 .container-text div{
-  background: #193360;
+  background: #21325E;
 }
 .container-text div:nth-child(1){
   transform: rotateX(360deg) translateZ(30px);
@@ -773,7 +847,7 @@ input.emailclass {
   border-bottom: 2px solid white!important;
 }
 #contact input {
-  background: #193360;
+  background: #21325E;
   border: none;
   width: 100%;
   color: white;
