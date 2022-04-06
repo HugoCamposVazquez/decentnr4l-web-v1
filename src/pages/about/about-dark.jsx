@@ -53,7 +53,6 @@ const INICIO = () => {
       <ShowcasesOneCenter />
       <Team1 />
       <MinimalArea />
-      <Services3/>
       <Numbers1/>
       <Testimonials1/>
       <ClientsBrands/>

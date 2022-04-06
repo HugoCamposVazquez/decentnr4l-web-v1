@@ -226,6 +226,15 @@ section.team.section-padding {
   overflow: hidden;
 }
 @media (min-width:768px){
+  ul.second-file {
+    display: none;
+  }
+  .con-info-dos.custom-font.desktop {
+    display: block;
+  }
+  .con-info-dos.custom-font.mobile {
+    display: none;
+  }
   .logoBackMenu{
     margin-bottom: 40px;
     position: absolute;
@@ -831,6 +840,75 @@ span.derecha {
   font-size: 40px;
 }
 @media (max-width:767px){
+  .con-info-dos ul {
+    margin-top: 0px;
+    font-size: 10px;
+}
+.con-info-dos ul li {
+  padding: 0 12px;
+  text-align: center;
+  display: inline-flex;
+}
+ul.second-file {
+  display: block;
+    -moz-box-pack: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Termina W00 Demi';
+    font-size: 11px;
+}
+.second-file li {
+  padding: 5px 0;
+}
+  .mobile .row {
+    justify-content: center;
+}
+  .con-info-dos.custom-font.desktop {
+    display: none;
+}
+.con-info-dos.custom-font.mobile {
+  display: block;
+  width: 100%;
+}
+  .footer-half .copyrights p {
+    font-size: 8px;
+    color: #999;
+}
+  .con-info ul {
+    display: block;
+    font-size: 9px;
+    font-family: 'Termina W00 Demi';
+}
+.footer-half .cont .logo {
+  width: 191px;
+  margin: 16px auto;
+}
+  span.dos-contact {
+    font-size: 24px;
+    color: #f0f0f0;
+    font-family: 'Termina W05 Black';
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+span.tres-contact {
+  font-size: 24px;
+  font-family: 'Termina W05 Black';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 95px;
+}
+span.pre {
+  position: relative;
+  bottom: -12px;
+  font-size: 15px;
+  font-family: 'Termina W00 Demi';
+  color: #3E497A;
+  right: -8px;
+}
   form .row {
     margin: 0!important;
     width: 100%;
