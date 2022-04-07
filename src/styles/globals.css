@@ -4,6 +4,9 @@
   align-items: center;
   height: 100%;
 }
+#trabajos .row.content {
+  margin-top: 70px;
+}
 ul.row.content.compe {
   display: block;
 }
