@@ -4,6 +4,156 @@
   align-items: center;
   height: 100%;
 }
+ul.row.content.compe {
+  display: block;
+}
+.team a.glyphicon {
+  background: #fdfdfd38;
+  padding: 4px 5px 0px 5px;
+  margin-top: 3px;
+}
+.compe li {
+  border: 1px solid #80808042;
+  margin-top: 10px;
+  padding: 20px 36px;
+}
+.team h3 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.card.team:hover::before {
+  width: 100%;
+  height: 100%;
+  background: #f9ce00;
+  top: 10px;
+  left: 10px;
+  content: '';
+  z-index: -1;
+  position: absolute;
+}
+.card.team::before{
+  width: inherit;
+  height: inherit;
+  background: #ff001500;
+  top: 10px;
+  left: 10px;
+  content: ''
+}
+.card.team img.team.uno:hover {
+  opacity: 0;
+}
+.card.team img.team.dos {
+  position: absolute;
+  opacity: 0;
+/*   -webkit-transition: 0.7s;
+  transition: 0.7s; */
+}
+.card.team {
+  height: 340px;
+}
+.col-sm-3.alex .card.team:hover {
+  background-image: url(/img/team/alex2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.col-sm-3.alex .card.team {
+  background-image: url(/img/team/alex1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-sm-3.frederic .card.team:hover {
+  background-image: url(/img/team/alex2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.col-sm-3.frederic  .card.team {
+  background-image: url(/img/team/alex1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-sm-3.hugo .card.team:hover {
+  background-image: url(/img/team/alex2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+}
+.col-sm-3.hugo .card.team {
+  background-image: url(/img/team/alex1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.col-sm-3.alberto .card.team:hover {
+  background-image: url(/img/team/alex2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.col-sm-3.alberto .card.team {
+  background-image: url(/img/team/alex1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card.team {
+  min-height: 42vh;
+}
+#equipo .row.content{
+  z-index: 0;
+}
+#equipo .row.content .col-sm-3{
+  z-index: 1;
+}
+
+.team h4 {
+  font-size: 16px;
+}
+.content-team {
+  padding: 10px;
+}
+.card.team .contentbx {
+  min-width: 90%;
+  text-align: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  z-index: 10;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -0%)!important;
+  transform: translate(-50%, -0%)!important;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+ .card.team:hover .contentbx {
+  opacity: 1;
+  transform: translateY(0px);
+  background-color: #f9ce00ba;
+}
+.card.team .contentbx {
+  display: inline-block;
+  background: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  color: #111;
+  opacity: 0;
+  transform: translate(50px);
+
+}
+.card.team {
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+img.team.uno {
+  filter: grayscale(1);
+}
+.row.content {
+  padding-top: 70px;
+  width: 94vw;
+  margin: 0 auto;
+}
 footer .container-fluid {
   padding: 0;
 }
@@ -57,14 +207,21 @@ span.pre {
   font-family: 'Termina W00 Demi';
   color: #3E497A;
 }
-#contact .row.cont-uno {
+.compe h2 {
+  font-size: 10px;
+  font-family: 'Termina W05 Black';
+  margin-bottom: 6px;
+}
+.compe p{color:#6B739A}
+#contact .row.cont-uno,#equipo .row.cont-uno, #trabajos .row.cont-uno, #competencias .row.cont-uno  {
   width: 94vw;
   margin: 0 auto;
 }
-#contact .row.cont-dos {
-  width: 86vw;
+#contact .row.cont-dos, #equipo .row.cont-dos, #trabajos .row.cont-dos, #competencias .row.cont-dos {
+  width: 89vw;
   margin: 0 auto;
 }
+
 span.tres-contact {
   font-size: 64px;
   font-family: 'Termina W05 Black';
@@ -73,7 +230,17 @@ span.tres-contact {
   color: transparent;
   position: absolute;
   margin-top: -33px;
-  margin-left: 191px;
+  margin-left: 185px;
+}
+span.tres-competencias{
+  font-size: 64px;
+  font-family: 'Termina W05 Black';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  position: absolute;
+  margin-top: -33px;
+  margin-left: 199px;
 }
 span.text-red-400.text-sm.py-2 {
   display: block;
@@ -394,7 +561,7 @@ button.boton-inicio {
 html {
   scroll-behavior: smooth;
 }
-div#contact {
+div#contact, div#equipo, div#trabajos, div#competencias {
   -moz-box-align: center;
   display: block;
   align-items: center;
@@ -402,7 +569,7 @@ div#contact {
   width: 97vw;
   margin: 0 auto;
   padding-top: 200px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 a.link:hover {
   --fill-color: #F1D00A;
@@ -902,6 +1069,16 @@ span.tres-contact {
   margin-top: 20px;
   margin-left: 95px;
 }
+span.tres-competencias {
+  font-size: 24px;
+  font-family: 'Termina W05 Black';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  color: transparent;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 95px;
+}
 span.pre {
   position: relative;
   bottom: -12px;
@@ -915,7 +1092,7 @@ span.pre {
     width: 100%;
     display: block;
 }
-div#contact {
+div#contact, div#equipo {
   width: 100vw;
   margin: 0 auto;
 }
