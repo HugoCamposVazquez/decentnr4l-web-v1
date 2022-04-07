@@ -14,7 +14,7 @@ function Equipo() {
             <div className='row content'>
                 <div className="col-sm-3 alex">
                      <div className="card team">
-                        <div class="contentbx">
+                        <div className="contentbx">
                             <div className="content-team">
                                 <h3>Alex Rivas</h3>
                                 <h4>CEO</h4>
@@ -25,7 +25,7 @@ function Equipo() {
                 </div> 
                 <div className="col-sm-3 hugo">
                      <div className='card team'>
-                        <div class="contentbx">
+                        <div className="contentbx">
                             <div className='content-team'>
                                 <h3>Hugo Campos</h3>
                                 <h4>CTO</h4>
@@ -36,7 +36,7 @@ function Equipo() {
                 </div> 
                 <div className="col-sm-3 alberto">
                      <div className='card team'>
-                        <div class="contentbx">
+                        <div className="contentbx">
                             <div className='content-team'>
                                 <h3>Alberto Lamas</h3>
                                 <h4>CFO</h4>
@@ -47,7 +47,7 @@ function Equipo() {
                 </div> 
                 <div className="col-sm-3 frederic">
                      <div className='card team'>
-                        <div class="contentbx">
+                        <div className="contentbx">
                             <div className='content-team'>
                                 <h3>Frederic Fernández</h3>
                                 <h4>CMO</h4>
