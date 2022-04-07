@@ -22,6 +22,7 @@ import FullpageWrapper from "../../components/FullPage";
 import Contacto from "../contact/contact";
 import ClientsBrands from "../../components/Clients-brands";
 import ProjectDetails2Dark from "../project-details2/project-details2-dark";
+import Example from "../../components/About-us2";
 
 const INICIO = () => {
 /*   const navbarRef = React.useRef(null);
@@ -44,6 +45,7 @@ const INICIO = () => {
     <DarkTheme>
       {/* <Navbar nr={navbarRef} /> */}
       <AboutHeader />
+      <Example/>
     {/*   <CallToAction subBG /> */}
      {/*  <AboutIntro /> */}
      {/*  <Services4 withPadding withOutTitle /> */}
@@ -52,6 +54,7 @@ const INICIO = () => {
       {/* <Maarquee/> */}
       {/* <ShowcasesOneCenter /> */}
       <Team1 />
+     
      {/*  <MinimalArea /> */}
      {/*  <Numbers1/> */}
      {/*  <Testimonials1/> */}
