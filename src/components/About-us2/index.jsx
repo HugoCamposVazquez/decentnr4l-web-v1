@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AnimatedBg, Transition } from 'scroll-background';
-import Card from '../About-with-skills';
+
 
 function Example() {
   return (
