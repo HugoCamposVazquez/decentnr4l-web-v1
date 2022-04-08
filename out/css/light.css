@@ -1118,7 +1118,7 @@ body {
   left: 0;
   top: 0;
   pointer-events: none;
-  border-radius: 50%;
+  border-radius: 0%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
@@ -1138,13 +1138,16 @@ body {
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
-
-.cursor-inner.cursor-hover {
+.cursor-inner.cursor-hover{
+  color: red;
+}
+.mouse-cursor.cursor-inner.cursor-hover {
   margin-left: -40px;
   margin-top: -40px;
   width: 80px;
   height: 80px;
   background-color: #F1D00A;
+  color: #000;
   opacity: 0.3;
 }
 

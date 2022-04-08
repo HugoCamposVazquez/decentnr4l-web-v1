@@ -1116,7 +1116,7 @@ body {
   left: 0;
   top: 0;
   pointer-events: none;
-  border-radius: 50%;
+  border-radius: 0%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
@@ -1138,9 +1138,11 @@ body {
 }
 
 .cursor-inner.cursor-hover {
-display: none;
-}
 
+}
+.cursor-inner:hover {
+  background-color: #f9ce00!important;
+}
 .cursor-outer {
   margin-left: -15px;
   margin-top: -15px;
