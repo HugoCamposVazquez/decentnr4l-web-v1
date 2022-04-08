@@ -7,7 +7,7 @@
 .compe li:hover {
   border: 1px solid #f9ce00;
 }
-.compe h2:hover{
+h2.amarillo{
   color:#f9ce00;
 }
 #trabajos p {
@@ -132,7 +132,7 @@ ul.row.content.compe {
 #competencias p {
   color: #6B739A;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2;
   margin: 0;
 }
@@ -1031,6 +1031,14 @@ span.derecha {
   font-size: 40px;
 }
 @media (max-width:767px){
+  #trabajos p {
+    max-width: 100%;
+    font-size: 14px;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    padding: 0 21px;
+}
   .con-info-dos ul {
     margin-top: 0px;
     font-size: 10px;
