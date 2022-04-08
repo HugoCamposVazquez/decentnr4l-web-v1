@@ -94,7 +94,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/about/about-dark">
                         <a className="link">
-                         About Us
+                         COMPETENCI4S
                         </a>
                       </Link>
                     </div>
@@ -103,7 +103,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                     <Link href="/about/about-dark">
                         <a className="link">
-                         PORTFOLIO
+                         TR4BAJOS
                         </a>
                       </Link>
                     </div>
@@ -160,7 +160,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                     <Link href="/about/about-dark">
                         <a className="link">
-                         SHOWCASES
+                         EQUIPO
                         </a>
                       </Link>
                     </div>
@@ -215,9 +215,9 @@ const NavbarFullMenu = ({ theme, lr }) => {
 
                   <li>
                     <div className="">
-                      <Link href="/contact/contact-dark">
+                      <Link href="/contact">
                         <a className="link">
-                          Contact
+                          Contacto
                         </a>
                       </Link>
                     </div>
