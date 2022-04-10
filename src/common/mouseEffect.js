@@ -35,6 +35,18 @@ const mousecursor = () => {
         cursorOuter.classList.add("cursor-hover");
     });
   });
+  document.querySelectorAll("li").forEach(function (item) {
+    item.addEventListener("mouseenter", function () {
+      cursorInner.classList.add("cursor-hover-li"),
+        cursorOuter.classList.add("cursor-hover-li");
+    });
+  });
+  document.querySelectorAll("li").forEach(function (item) {
+    item.addEventListener("mouseleave", function () {
+      cursorInner.classList.remove("cursor-hover-li"),
+        cursorOuter.classList.remove("cursor-hover-li");
+    });
+  }),
   document.querySelectorAll("a").forEach(function (item) {
     item.addEventListener("mouseleave", function () {
       cursorInner.classList.remove("cursor-hover"),

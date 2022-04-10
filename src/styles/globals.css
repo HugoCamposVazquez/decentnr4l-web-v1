@@ -4,6 +4,12 @@
   align-items: center;
   height: 100%;
 }
+span.version {
+  font-size: 11px;
+  position: relative;
+  margin-left: 17px;
+  margin-top: 30px;
+}
 img.logo-works {
   position: absolute;
   top: 50%;
@@ -558,7 +564,7 @@ section.team.section-padding {
 }
 ul.social-list a.glyphicon svg {
   float: left;
-  margin: 3px 20px;
+  margin: 0px 20px;
   -webkit-transition: 0.3s ease-out;
   -moz-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
@@ -581,9 +587,13 @@ ul.social-list a.glyphicon svg:hover {
     align-items: center;
 }   
 .social-nav-text {
+  font-family: 'Termina W00 Demi';
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  font-size: 19px;
-  color: grey;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .container-fluid:after{

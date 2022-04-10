@@ -7,7 +7,7 @@ import { FaTelegramPlane , FaTwitter, FaDiscord , FaLinkedinIn } from "react-ico
 const Footer = () => {
   return (
     <footer className="footer-half sub-bg section-padding pb-0">
-      <div className="containe-fluid">
+      <div className="container-fluid">
           <div className="col-lg-12">
             <div className="cont text-center">
               <div className="logo">

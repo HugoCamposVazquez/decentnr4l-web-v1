@@ -235,6 +235,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <li><a className="glyphicon" rel="noopener noreferrer" href="https://www.linkedin.com/company/decentr4l/about/" target="_blank" title="Linkedin"><FaLinkedinIn/></a></li>
                   </ul>
                 </nav>
+                <span className="version">V. 1.0</span>
               </div>
 
             </div>
