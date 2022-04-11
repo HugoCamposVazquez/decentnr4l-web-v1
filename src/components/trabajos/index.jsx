@@ -16,7 +16,7 @@ function Trabajos() {
             <div className='row content'>
                 <div className="col-sm-3">
                   <div className='card team'>
-                  <img className='logo-works' title="agalbit" alt="agalbit" src='img/clients/logo-agalbit.png'></img>
+                  <img className='logo-works' title="agalbit" alt="agalbit" src='/img/clients/logo-agalbit.png'></img>
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>ALGABIT</h3>
@@ -29,7 +29,7 @@ function Trabajos() {
                 </div>
                 <div className="col-sm-3">
                   <div className='card team'>
-                  <img className='logo-works' title="agalbit" alt="agalbit" src='img/clients/logo-dextools.png'></img>
+                  <img className='logo-works' title="agalbit" alt="agalbit" src='/img/clients/logo-dextools.png'></img>
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>DEXTools</h3>
@@ -42,7 +42,7 @@ function Trabajos() {
                 </div>
                 <div className="col-sm-3">
                   <div className='card team'>
-                  <img className='logo-works' title="agalbit" alt="agalbit" src='img/clients/logo-skydream.png'></img>
+                  <img className='logo-works' title="agalbit" alt="agalbit" src='/img/clients/logo-skydream.png'></img>
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>SKY DREAM</h3>
@@ -52,9 +52,10 @@ function Trabajos() {
                       </div>    
                     </div>
                   </div>                     
-                </div>    <div className="col-sm-3">
+                </div>    
+                <div className="col-sm-3">
                   <div className='card team'>
-                  <img className='logo-works' title="agalbit" alt="agalbit" src='img/clients/logo-eetee.png'></img>
+                  <img className='logo-works' title="agalbit" alt="agalbit" src='/img/clients/logo-eetee.png'></img>
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>EETEE</h3>
