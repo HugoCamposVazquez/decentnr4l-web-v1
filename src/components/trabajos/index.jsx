@@ -20,7 +20,7 @@ function Trabajos() {
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>ALGABIT</h3>
-                        <h4>www.algabit.org</h4>
+                        {/* <h4>www.algabit.org</h4> */}
                         <hr className='works'></hr>
                         <p className='works-desc'>Desarrollo web3 de la plataforma agalbit para la asociación gallega de blockchain.</p> 
                       </div>    
@@ -33,7 +33,7 @@ function Trabajos() {
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>DEXTools</h3>
-                        <h4>www.dextools.io</h4>
+                        {/* <h4>www.dextools.io</h4> */}
                         <hr className='works'></hr>
                         <p className='works-desc'>Desarrollo web3 de la plataforma agalbit para la asociación gallega de blockchain.</p> 
                       </div>    
@@ -46,7 +46,7 @@ function Trabajos() {
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>SKY DREAM</h3>
-                        <h4>www.skydream.org</h4>
+                        {/* <h4>www.skydream.org</h4> */}
                         <hr className='works'></hr>
                         <p className='works-desc'>Desarrollo web3 de la plataforma agalbit para la asociación gallega de blockchain.</p> 
                       </div>    
@@ -58,7 +58,7 @@ function Trabajos() {
                     <div className="contentbx works">
                       <div className='content-team'>
                         <h3>EETEE</h3>
-                        <h4>www.eetee.org</h4>
+                        {/* <h4>www.eetee.org</h4> */}
                         <hr className='works'></hr>
                         <p className='works-desc'>Desarrollo web3 de la plataforma agalbit para la asociación gallega de blockchain.</p> 
                       </div>    

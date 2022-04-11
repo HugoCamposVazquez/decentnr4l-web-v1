@@ -605,8 +605,9 @@ ul.social-list a.glyphicon svg:hover {
   max-width: 100%;
   width: 100%;
   position: absolute;
-  bottom: 0;
-  margin-bottom: 50px;
+  bottom: -25px;
+  margin-bottom: 75px;
+  z-index: 1000;
 }
 .menu-icon {
   display: flex;
