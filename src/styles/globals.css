@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .blog-crv .item {
   display: flex;
   align-items: center;
@@ -669,9 +671,7 @@ button.boton-inicio {
   padding: 7px 18px;
   color: white;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 div#contact, div#equipo, div#trabajos, div#competencias {
   -moz-box-align: center;
   display: block;

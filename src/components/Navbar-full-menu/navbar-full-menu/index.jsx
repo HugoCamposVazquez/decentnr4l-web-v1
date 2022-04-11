@@ -101,58 +101,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                   </li>
                   <li>
                     <div className="o-hidden">
-                    <Link href="/about/about-dark">
+                    <Link href="/#trabajos">
                         <a className="link">
                          TR4BAJOS
                         </a>
                       </Link>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works/works-dark">
-                              <a className="sub-link">
-                                <span className="nm">01.</span>Mouse Info
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works2/works2-dark">
-                              <a className="sub-link">
-                                Masonry 3 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works3/works3-dark">
-                              <a className="sub-link">
-                                Masonry 2 Columns
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/works4/works4-dark">
-                              <a className="sub-link">
-                                Pinterest List
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
                     </div>
                   </li>
 
@@ -164,58 +117,11 @@ const NavbarFullMenu = ({ theme, lr }) => {
                         </a>
                       </Link>
                     </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <div className="o-hidden">
-                            <span className="sub-link back">
-                              <i className="pe-7s-angle-left"></i> Go Back
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase/showcase-dark">
-                              <a className="sub-link">
-                                Full Screen
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase2/showcase2-dark">
-                              <a className="sub-link">
-                                Creative Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase3/showcase3-dark">
-                              <a className="sub-link">
-                                Radius Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="o-hidden">
-                            <Link href="/showcase4/showcase4-dark">
-                              <a className="sub-link">
-                                Columns Carousel
-                              </a>
-                            </Link>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
 
                   <li>
                     <div className="">
-                      <Link href="/contact">
+                      <Link href="/blog">
                         <a className="link">
                           Contacto
                         </a>
