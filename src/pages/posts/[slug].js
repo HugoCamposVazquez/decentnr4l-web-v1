@@ -30,7 +30,7 @@ export async function getStaticProps(context) {
 const PostPage = ({ post }) => {
   return (
     <DarkTheme>
-    <NavbarFullMenu theme={DarkTheme} lr={undefined}/>  
+    <NavbarFullMenu/>  
         <main>
         <article>
             <h1>{post.title}</h1>
