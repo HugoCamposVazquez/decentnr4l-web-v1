@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/trabajos/[slug].js"
-    ],
-    "/trabajos/agalbit": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/trabajos/agalbit.js"
     ]
   },
   "ampFirstPages": []

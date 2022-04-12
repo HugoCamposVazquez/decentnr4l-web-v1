@@ -6,6 +6,9 @@ html {
   align-items: center;
   height: 100%;
 }
+#trabajos.single p {
+  right: 0px;
+}
 a.trabajos-boton {
   background: #f9ce00;
   color: #1c3562;
@@ -71,7 +74,6 @@ span.pre-tit-b {
 #trabajos .social ul {
   display: flex;
   margin-top: 90px;
-  margin-left: 32px;
 }
 li.site {
   font-size: 12px;

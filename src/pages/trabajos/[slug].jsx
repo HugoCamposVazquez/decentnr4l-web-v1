@@ -3,6 +3,7 @@ import Trabajos from '../../components/trabajos'
 import DarkTheme from "../../layouts/Dark";
 import NavbarFullMenu from "../../components/Navbar-full-menu/navbar-full-menu";
 import { FaTelegramPlane , FaTwitter, FaDiscord , FaLinkedinIn } from "react-icons/fa";
+import Link from 'next/link';
 
 function TrabajosSingle() {
   return (
@@ -13,9 +14,9 @@ function TrabajosSingle() {
                     <div className="row">
                         <div className="col-sm-6">
                             <div className='row cont-dos'>
-                                <span class="pre-tit-a">WEB</span>
+                                <span className="pre-tit-a">WEB</span>
                                 <span><h2 className='pre-titulo'>WEB</h2></span>
-                                <span class="pre-tit-b">AGALBIT</span>
+                                <span className="pre-tit-b">AGALBIT</span>
                                 <span className="dos-contact">AGA</span><span className="tres-contact">LBIT</span>  
                             </div>
                             <div className="texto-trabajos">
@@ -78,7 +79,7 @@ function TrabajosSingle() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 trabajo-single-dos"><a className="trabajos-boton" href="/trabajos">VER OTROS PROYECTOS</a></div>
+                        <div className="col-sm-6 trabajo-single-dos"><Link href="/about/about-dark"><a className="trabajos-boton" href="/trabajos">VER OTROS PROYECTOS</a></Link></div>
                     </div>
                 </div>
               
