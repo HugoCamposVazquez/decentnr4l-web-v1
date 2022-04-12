@@ -79,7 +79,7 @@ function TrabajosSingleAgalbit() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 trabajo-single-dos"><Link href="/about/about-dark"><a className="trabajos-boton" href="/trabajos">VER OTROS PROYECTOS</a></Link></div>
+                        <div className="col-sm-6 trabajo-single-dos"><Link href="/trabajos"><a className="trabajos-boton">VER OTROS PROYECTOS</a></Link></div>
                     </div>
                 </div>
               
