@@ -1124,6 +1124,7 @@ body {
 .cursor-hover{display: none;}
 .cursor-hover.cursor-hover-li{display: block;}
 .cursor-inner.cursor-hover-li{background-color: #F1D00A;}
+.cursor-inner.cursor-hover-single{background-color: #21325E;}
 .cursor-inner {
   margin-left: -3px;
   margin-top: -3px;
@@ -1145,6 +1146,7 @@ body {
 .cursor-inner:hover {
   background-color: #f9ce00!important;
 }
+
 .cursor-outer {
   margin-left: -15px;
   margin-top: -15px;
@@ -1158,6 +1160,9 @@ body {
   -webkit-transition: all 0.08s ease-out;
   -o-transition: all 0.08s ease-out;
   transition: all 0.08s ease-out;
+}
+.cursor-outer-single {
+  border: 1px solid #142b51;
 }
 .cursor-outer.cursor-hover {
   opacity: 1;

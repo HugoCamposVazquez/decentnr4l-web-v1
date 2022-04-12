@@ -46,7 +46,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
         className={navbar ? "navbar active" : "navbar"}> */}
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <a href="/">
      
                 <><img className="logotipo" src={`${appData.lightLogo}`} alt="logo" />{/* <span className="letrasLogo">Decentr4l</span> */}
                 <ul id="list">

@@ -35,6 +35,12 @@ const mousecursor = () => {
         cursorOuter.classList.add("cursor-hover");
     });
   });
+  document.querySelectorAll("a").forEach(function (item) {
+    item.addEventListener("mouseleave", function () {
+      cursorInner.classList.remove("cursor-hover"),
+        cursorOuter.classList.remove("cursor-hover");
+    });
+  }),
   document.querySelectorAll("li").forEach(function (item) {
     item.addEventListener("mouseenter", function () {
       cursorInner.classList.add("cursor-hover-li"),
@@ -47,10 +53,16 @@ const mousecursor = () => {
         cursorOuter.classList.remove("cursor-hover-li");
     });
   }),
-  document.querySelectorAll("a").forEach(function (item) {
+  document.querySelectorAll(".single.blanco").forEach(function (item) {
+    item.addEventListener("mouseenter", function () {
+      cursorInner.classList.add("cursor-hover-single"),
+        cursorOuter.classList.add("cursor-outer-single");
+    });
+  });
+  document.querySelectorAll(".single.blanco").forEach(function (item) {
     item.addEventListener("mouseleave", function () {
-      cursorInner.classList.remove("cursor-hover"),
-        cursorOuter.classList.remove("cursor-hover");
+      cursorInner.classList.remove("cursor-hover-single"),
+        cursorOuter.classList.remove("cursor-outer-single");
     });
   }),
     (cursorInner.style.visibility = "visible"),
