@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import axios from "axios";
-import baseApiUrl from "../../utils/baseApiUrl";
+import baseApiUrl from "../../../utils/baseApiUrl";
 import Sidebar from "./Sidebar";
 
 const LeftSidebarContent = () => {

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Sidebar from "./Sidebar";
 import axios from "axios";
-import baseApiUrl from "../../utils/baseApiUrl";
+import baseApiUrl from "../../../utils/baseApiUrl";
 
 const RightSidebarContent = () => {
   const [blogs, setBlogs] = React.useState();
