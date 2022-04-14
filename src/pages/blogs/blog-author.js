@@ -1,15 +1,13 @@
 import React from "react";
-import PageTitle from "@/components/Layout/PageTitle";
-import Navbar from "@/components/Layout/Navigations/Navbar1";
-import AuthorPost from "@/components/Blog/AuthorPost";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
+
+import AuthorPost from "../../components/Blog/AuthorPost";
+
 import Link from "next/link";
 
 const BlogAuthor = () => {
   return (
     <>
-      <PageTitle page="Author" />
-      <Navbar />
+ 
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
@@ -31,7 +29,6 @@ const BlogAuthor = () => {
         </div>
       </div>
       <AuthorPost />
-      <FooterOne />
     </>
   );
 };

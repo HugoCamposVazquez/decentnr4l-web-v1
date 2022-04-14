@@ -1,15 +1,12 @@
 import React from "react";
-import PageTitle from "@/components/Layout/PageTitle";
-import Navbar from "@/components/Layout/Navigations/Navbar1";
-import CategoriePost from "@/components/Blog/CategoriePost";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
+
+import CategoriePost from "../../components/Blog/CategoriePost";
+
 import Link from "next/link";
 
 const BlogCategories = () => {
   return (
     <>
-      <PageTitle page="Category" />
-      <Navbar />
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
@@ -31,7 +28,6 @@ const BlogCategories = () => {
         </div>
       </div>
       <CategoriePost />
-      <FooterOne />
     </>
   );
 };

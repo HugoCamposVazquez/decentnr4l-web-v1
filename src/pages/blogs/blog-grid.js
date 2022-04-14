@@ -1,14 +1,12 @@
 import React from "react";
-import PageTitle from "@/components/Layout/PageTitle";
-import Navbar from "@/components/Layout/Navigations/Navbar1";
-import GridContent from "@/components/Blog/GridContent";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
+
+import GridContent from "../../components/Blog/GridContent";
+
 
 const BlogGrid = () => {
   return (
     <>
-      <PageTitle page="Blog Grid" />
-      <Navbar />
+
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
@@ -18,7 +16,7 @@ const BlogGrid = () => {
         </div>
       </div>
       <GridContent />
-      <FooterOne />
+  
     </>
   );
 };

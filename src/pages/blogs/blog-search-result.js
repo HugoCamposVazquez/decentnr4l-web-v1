@@ -1,15 +1,12 @@
 import React from "react";
-import PageTitle from "@/components/Layout/PageTitle";
-import Navbar from "@/components/Layout/Navigations/Navbar1";
-import SearchResultPost from "@/components/Blog/SearchResultPost";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
+
+import SearchResultPost from "../../components/Blog/SearchResultPost";
 import Link from "next/link";
 
 const BlogSearchResult = () => {
   return (
     <>
-      <PageTitle page="Search result" />
-      <Navbar />
+
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
@@ -31,7 +28,6 @@ const BlogSearchResult = () => {
         </div>
       </div>
       <SearchResultPost />
-      <FooterOne />
     </>
   );
 };
