@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 import CategoriePost from "../../components/Blog/CategoriePost";
 
@@ -33,3 +33,4 @@ const BlogCategories = () => {
 };
 
 export default BlogCategories;
+ */

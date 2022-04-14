@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 import SearchResultPost from "../../components/Blog/SearchResultPost";
 import Link from "next/link";
@@ -33,3 +33,4 @@ const BlogSearchResult = () => {
 };
 
 export default BlogSearchResult;
+ */

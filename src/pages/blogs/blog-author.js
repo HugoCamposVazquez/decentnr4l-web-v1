@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 import AuthorPost from "../../components/Blog/AuthorPost";
 
@@ -34,3 +34,4 @@ const BlogAuthor = () => {
 };
 
 export default BlogAuthor;
+ */
