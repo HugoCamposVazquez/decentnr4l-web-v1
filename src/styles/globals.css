@@ -299,12 +299,12 @@ ul.row.content.compe {
   background-position: center;
 }
 .col-sm-3.alberto .card.team:hover {
-  background-image: url(/img/team/alex2.jpg);
+  background-image: url(/img/team/alberto2.jpg);
   background-size: cover;
   background-position: center;
 }
 .col-sm-3.alberto .card.team {
-  background-image: url(/img/team/alex1.jpg);
+  background-image: url(/img/team/alberto1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
