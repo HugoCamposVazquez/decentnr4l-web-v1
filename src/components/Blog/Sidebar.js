@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import axios from "axios";
-∑
+
 
 const Sidebar = () => {
   const [blogs, setBlogs] = React.useState();
