@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Sidebar from "../Sidebar";
@@ -417,3 +417,4 @@ const DetailsContent2 = () => {
 };
 
 export default DetailsContent2;
+ */

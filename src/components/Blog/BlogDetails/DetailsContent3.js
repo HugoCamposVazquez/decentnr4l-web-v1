@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import blogPreviewImg from "@/public/images/blog/blog3.jpg";
@@ -409,3 +409,4 @@ const DetailsContent2 = () => {
 };
 
 export default DetailsContent2;
+ */

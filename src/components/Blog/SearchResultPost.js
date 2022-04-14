@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -371,3 +371,4 @@ const SearchResultPost = () => {
 };
 
 export default SearchResultPost;
+ */
