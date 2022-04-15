@@ -44,9 +44,9 @@ const DetailsContent = ({
                   </li>
                   <li>
                     <i className="category"></i>
-                    <Link href="/blogs/blog-tag">
+                 {/*    <Link href="/blogs/blog-tag">
                         <a rel="tag">{category}</a>
-                      </Link>
+                      </Link> */}
                   </li>
                 </ul>
               </div>
