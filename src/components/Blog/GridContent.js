@@ -51,6 +51,10 @@ const GridContent = () => {
                           <i className="bx bx-calendar-check"></i>
                           {blog.attributes.date}
                         </li>
+                        <li>
+                          <i className="bx bx-calendar-check"></i>
+                          {blog.attributes.detailsText}
+                        </li>
                       </ul>
                       <h3>
                         <Link href={`/blogs/${blog.attributes.slug}`}>
