@@ -1,42 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import { addBasePath } from "next/dist/shared/lib/router/router";
-
 /* import Sidebar from "../Sidebar"; */
 import ReactMarkdown from "react-markdown";
-import {
-  EmailShareButton,
-  FacebookShareButton,
-  FacebookIcon,
-  HatenaShareButton,
-  InstapaperShareButton,
-  LinkedinShareButton,
-  PinterestShareButton,
-  PocketShareButton,
-  RedditShareButton,
-  TelegramShareButton,
-  TumblrShareButton,
-  TwitterShareButton,
-  ViberShareButton,
-  VKShareButton,
-  WhatsappShareButton,
-} from "react-share";
 
-
-
-
-const DetailsContent  = ({
-
-  
+const DetailsContent = ({
   attributes: {
     detailsText,
     date,
-    slug,
-    categories: {
-      data: {
-        attributes: name,
-      },
-    },
+    category,
     image: {
       data: {
         attributes: { url: imageUrl },
@@ -44,12 +15,7 @@ const DetailsContent  = ({
     },
   },
 }) => {
-
-
-const ShareUrl =slug
-
   return (
-    
     <div className="blog-details-area ptb-100">
       <div className="container">
         <div className="row justify-content-center">
@@ -65,8 +31,14 @@ const ShareUrl =slug
                 <img src={imageUrl} alt="blog-details" />
               </div>
 
-              <div className="post-meta mt-40">
+              <div className="post-meta">
                 <ul>
+                  <li>
+                    <i className="bx bx-purchase-tag-alt"></i>
+                    <Link href="/blogs/blog-tag">
+                      <a>Test</a>
+                    </Link>
+                  </li>
                   <li>
                     <i className="bx bx-calendar-check"></i>
                     {date}
@@ -74,7 +46,7 @@ const ShareUrl =slug
                   <li>
                     <i className="category"></i>
                     <Link href="/blogs/blog-tag">
-                        <a rel="tag">{name}</a>
+                        <a rel="tag">{category}</a>
                       </Link>
                   </li>
                 </ul>
@@ -83,20 +55,30 @@ const ShareUrl =slug
               <ReactMarkdown>{detailsText}</ReactMarkdown>
 
               <div className="post-footer">
-                <div className="article-share mt-25">
+                <div className="article-share">
                   <ul className="social">
                     <li>
                       <span>Share:</span>
                     </li>
                     <li>
-                    <FacebookShareButton url={ShareUrl}
-                      
-                    >
-                      <FacebookIcon
-                        
-                      />
-                    </FacebookShareButton>
-
+                      <a
+                        href="https://www.facebook.com/"
+                        className="facebook"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.twitter.com/"
+                        className="twitter"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="bx bxl-twitter"></i>
+                      </a>
                     </li>
                     <li>
                       <a

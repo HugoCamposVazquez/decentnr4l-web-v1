@@ -265,46 +265,46 @@ ul.row.content.compe {
   height: 340px;
 }
 .col-sm-3.alex .card.team:hover {
-  background-image: url(/img/team/alex2.jpg);
+  background-image: url(/img/team/alex1.jpg);
   background-size: cover;
   background-position: center;
 }
 .col-sm-3.alex .card.team {
-  background-image: url(/img/team/alex1.jpg);
+  background-image: url(/img/team/alex2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .col-sm-3.frederic .card.team:hover {
-  background-image: url(/img/team/frederic2.jpg);
+  background-image: url(/img/team/frederic1.jpg);
   background-size: cover;
   background-position: center;
 }
 .col-sm-3.frederic  .card.team {
-  background-image: url(/img/team/frederic1.jpg);
+  background-image: url(/img/team/frederic2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .col-sm-3.hugo .card.team:hover {
-  background-image: url(/img/team/hugo2.jpg);
+  background-image: url(/img/team/hugo1.jpg);
   background-size: cover;
   background-position: center;
   background-position: center;
 }
 .col-sm-3.hugo .card.team {
-  background-image: url(/img/team/hugo1.jpg);
+  background-image: url(/img/team/hugo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .col-sm-3.alberto .card.team:hover {
-  background-image: url(/img/team/alberto2.jpg);
+  background-image: url(/img/team/alberto1.jpg);
   background-size: cover;
   background-position: center;
 }
 .col-sm-3.alberto .card.team {
-  background-image: url(/img/team/alberto1.jpg);
+  background-image: url(/img/team/alberto2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
