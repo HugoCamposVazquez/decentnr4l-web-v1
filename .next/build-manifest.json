@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/blogs/[slug].js"
-    ],
-    "/blogs/blog-grid": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/blogs/blog-grid.js"
     ]
   },
   "ampFirstPages": []
