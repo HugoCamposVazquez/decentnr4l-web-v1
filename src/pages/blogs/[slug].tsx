@@ -52,7 +52,7 @@ const ServicesDetails = ({ blog: { data } }) => {
        <NavbarFullMenu theme={undefined} lr={undefined}/>
         <img src={data[0].attributes.image.data.attributes.url} alt={data[0].attributes.image.data.attributes.alternativeText}/>
         <div><h1>{data[0].attributes.title}</h1></div>
-        <div>{data[0].attributes.detailsText}</div>
+        <div><p>{data[0].attributes.detailsText}</p></div>
         </DarkTheme>
     </>
   );
